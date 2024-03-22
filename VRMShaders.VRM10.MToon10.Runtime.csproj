@@ -40,30 +40,30 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\MToonValidator.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\MToonOutlineRenderFeature.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\Extensions\MaterialExtensions.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10OutlineMode.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10RimMapKeyword.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\Properties\MToon10Prop.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\MToon10Context.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10ParameterMapKeyword.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10TransparentWithZWriteMode.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10AlphaMode.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\MToonOutlineRenderPass.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10OutlineModeKeyword.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10NormalMapKeyword.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\Properties\MToon10Meta.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityZWriteMode.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityRenderTag.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityAlphaModeKeyword.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\Properties\MToon10Properties.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\MToon10Migrator.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10DoubleSidedMode.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityCullMode.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10EmissiveMapKeyword.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityAlphaToMaskMode.cs" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Runtime\VRMShaders.VRM10.MToon10.Runtime.asmdef" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10AlphaMode.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10EmissiveMapKeyword.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityAlphaToMaskMode.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10TransparentWithZWriteMode.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10DoubleSidedMode.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityCullMode.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\Extensions\MaterialExtensions.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\MToon10Context.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\Properties\MToon10Properties.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\MToon10Migrator.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityRenderTag.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10OutlineMode.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\MToonValidator.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\Properties\MToon10Meta.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\Properties\MToon10Prop.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\MToonOutlineRenderPass.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10RimMapKeyword.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityAlphaModeKeyword.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10ParameterMapKeyword.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\ShaderLabDefinedValues\UnityZWriteMode.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10OutlineModeKeyword.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\UnityShaderLab\MToonDefinedValues\MToon10NormalMapKeyword.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\MToonOutlineRenderFeature.cs" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Runtime\VRMShaders.VRM10.MToon10.Runtime.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

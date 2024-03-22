@@ -40,9 +40,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\VRMShaders\VRM\IO\Runtime\PreShaderPropExporter.cs" />
-     <Compile Include="Assets\VRMShaders\VRM\IO\Runtime\ShaderProps.cs" />
-     <None Include="Assets\VRMShaders\VRM\IO\Runtime\VRMShaders.VRM.IO.Runtime.asmdef" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM\IO\Runtime\ShaderProps.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM\IO\Runtime\PreShaderPropExporter.cs" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM\IO\Runtime\VRMShaders.VRM.IO.Runtime.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

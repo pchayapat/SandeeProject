@@ -40,36 +40,39 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SimplestarGame\SimpleURPToonLitOutlineExample\Scripts\MaterialFactory.cs" />
-     <None Include="Assets\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />
-     <None Include="Assets\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample_Shared.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_attribute.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_vertex.hlsl" />
-     <None Include="Assets\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample.shader" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_uv.hlsl" />
-     <None Include="Assets\VRMShaders\GLTF\IO\Resources\UniGLTF\NormalMapExporter.shader" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthnormals_fragment.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_mtoon.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_shadowcaster_vertex.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_vertex.hlsl" />
-     <None Include="Assets\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapExporter.shader" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthnormals_vertex.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_urp.shader" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_fragment.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_alpha.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_input.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_unity.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthonly_fragment.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthonly_vertex.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_utility.hlsl" />
-     <None Include="Assets\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapImporter.shader" />
-     <None Include="Assets\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\Unity-Technologies\ShaderGraph-Custom-Lighting\Includes\CustomLighting.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_render_pipeline.hlsl" />
-     <None Include="Assets\VRMShaders\GLTF\UniUnlit\Resources\UniGLTF\UniUnlit.shader" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_normal.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_shadowcaster_fragment.hlsl" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_define.hlsl" />
+     <Compile Include="Assets\Scripts\PlayerCam.cs" />
+     <Compile Include="Assets\Scripts\MoveCamera.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <None Include="Assets\ThirdParty\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />
+     <None Include="Assets\ThirdParty\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample_Shared.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_attribute.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_vertex.hlsl" />
+     <None Include="Assets\ThirdParty\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample.shader" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_uv.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\GLTF\IO\Resources\UniGLTF\NormalMapExporter.shader" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthnormals_fragment.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_mtoon.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_shadowcaster_vertex.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_vertex.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapExporter.shader" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthnormals_vertex.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_urp.shader" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_fragment.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_alpha.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_input.hlsl" />
+     <None Include="Assets\ShaderGraphsMToonForURPVR-master\Assets\SimplestarGame\ShaderGraphsMToon\Includes\Outline.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_unity.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthonly_fragment.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthonly_vertex.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_utility.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapImporter.shader" />
+     <None Include="Assets\ThirdParty\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\Unity-Technologies\ShaderGraph-Custom-Lighting\Includes\CustomLighting.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_render_pipeline.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\GLTF\UniUnlit\Resources\UniGLTF\UniUnlit.shader" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_normal.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_shadowcaster_fragment.hlsl" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_define.hlsl" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -694,6 +697,9 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
@@ -706,20 +712,20 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
         <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -760,6 +766,9 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VRM10.csproj">
@@ -770,13 +779,13 @@
       <Project>{91ac5405-81e5-8343-1822-712b718440dd}</Project>
       <Name>UniHumanoid</Name>
     </ProjectReference>
-    <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
-      <Project>{61274ad9-7f77-0ee8-6809-8c43b1e66537}</Project>
-      <Name>VRMShaders.GLTF.IO.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="UniGLTF.csproj">
       <Project>{63a366a7-fcd1-999d-57f4-65bd6259fc20}</Project>
       <Name>UniGLTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
+      <Project>{61274ad9-7f77-0ee8-6809-8c43b1e66537}</Project>
+      <Name>VRMShaders.GLTF.IO.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

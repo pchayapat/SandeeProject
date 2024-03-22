@@ -40,10 +40,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Editor\MToon10EditorEditMode.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Editor\LabelScope.cs" />
-     <Compile Include="Assets\VRMShaders\VRM10\MToon10\Editor\MToonInspector.cs" />
-     <None Include="Assets\VRMShaders\VRM10\MToon10\Editor\VRMShaders.VRM10.MToon10.Editor.asmdef" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Editor\MToonInspector.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Editor\LabelScope.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Editor\MToon10EditorEditMode.cs" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Editor\VRMShaders.VRM10.MToon10.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

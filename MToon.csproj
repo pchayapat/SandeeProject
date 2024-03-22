@@ -40,17 +40,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\VRMShaders\VRM\MToon\MToon\Scripts\UtilsSetter.cs" />
-     <Compile Include="Assets\VRMShaders\VRM\MToon\MToon\Scripts\UtilsGetter.cs" />
-     <Compile Include="Assets\VRMShaders\VRM\MToon\MToon\Scripts\Enums.cs" />
-     <Compile Include="Assets\VRMShaders\VRM\MToon\MToon\Scripts\MToonDefinition.cs" />
-     <Compile Include="Assets\VRMShaders\VRM\MToon\MToon\Scripts\UtilsVersion.cs" />
-     <Compile Include="Assets\VRMShaders\VRM\MToon\MToon\Scripts\Utils.cs" />
-     <None Include="Assets\VRMShaders\VRM\MToon\MToon\Resources\Shaders\MToonSM4.cginc" />
-     <None Include="Assets\VRMShaders\VRM\MToon\MToon\Resources\Shaders\MToonSM3.cginc" />
-     <None Include="Assets\VRMShaders\VRM\MToon\MToon\MToon.asmdef" />
-     <None Include="Assets\VRMShaders\VRM\MToon\MToon\Resources\Shaders\MToon.shader" />
-     <None Include="Assets\VRMShaders\VRM\MToon\MToon\Resources\Shaders\MToonCore.cginc" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Scripts\UtilsGetter.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Scripts\UtilsSetter.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Scripts\MToonDefinition.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Scripts\Enums.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Scripts\UtilsVersion.cs" />
+     <Compile Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Scripts\Utils.cs" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Resources\Shaders\MToonSM4.cginc" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Resources\Shaders\MToonSM3.cginc" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\MToon.asmdef" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Resources\Shaders\MToon.shader" />
+     <None Include="Assets\ThirdParty\VRMShaders\VRM\MToon\MToon\Resources\Shaders\MToonCore.cginc" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

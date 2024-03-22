@@ -40,25 +40,25 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\Blittables\BlittableTransform.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\Blittables\BlittableCollider.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\InputPorts\FastSpringBoneCollider.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\InputPorts\FastSpringBoneBuffer.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\System\CopyToNativeArrayTransformJob.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\Blittables\BlittableSpring.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\Blittables\BlittableSpan.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\InputPorts\FastSpringBoneSpring.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\Blittables\BlittableColliderType.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\System\FastSpringBoneScheduler.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\System\UpdateFastSpringBoneJob.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\System\FastSpringBoneBufferCombiner.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\Blittables\BlittableExternalData.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\System\PushTransformJob.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\Blittables\BlittableJoint.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\Blittables\BlittableLogic.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\InputPorts\FastSpringBoneJoint.cs" />
-     <Compile Include="Assets\VRM10\Runtime\FastSpringBone\System\FastSpringBoneService.cs" />
-     <None Include="Assets\VRM10\Runtime\FastSpringBone\FastSpringBone10.asmdef" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\InputPorts\FastSpringBoneJoint.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\Blittables\BlittableSpan.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\Blittables\BlittableExternalData.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\System\UpdateFastSpringBoneJob.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\System\FastSpringBoneScheduler.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\Blittables\BlittableLogic.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\System\CopyToNativeArrayTransformJob.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\Blittables\BlittableJoint.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\Blittables\BlittableColliderType.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\System\FastSpringBoneBufferCombiner.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\InputPorts\FastSpringBoneCollider.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\Blittables\BlittableSpring.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\Blittables\BlittableCollider.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\System\FastSpringBoneService.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\InputPorts\FastSpringBoneSpring.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\System\PushTransformJob.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\Blittables\BlittableTransform.cs" />
+     <Compile Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\InputPorts\FastSpringBoneBuffer.cs" />
+     <None Include="Assets\ThirdParty\VRM10\Runtime\FastSpringBone\FastSpringBone10.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
