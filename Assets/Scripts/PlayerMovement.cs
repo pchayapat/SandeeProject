@@ -48,12 +48,12 @@ public class PlayerMovement : MonoBehaviour
         
         if(Input.GetKey(KeyCode.LeftShift)){
             animator.SetBool("isRunning",true);
-                moveSpeed = 6;
+                moveSpeed = 3;
         }
         else{
             animator.SetBool("isRunning",false);
-            if(moveSpeed == 6.0){
-                moveSpeed = 3;
+            if(moveSpeed == 3.0){
+                moveSpeed = 1;
             } 
         }
 
