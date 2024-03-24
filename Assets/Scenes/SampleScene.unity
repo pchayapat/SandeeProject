@@ -179,13 +179,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6410158440535410299, guid: b0b7bf30516f6cb45aef9bdf445400ee, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410158440535410299, guid: b0b7bf30516f6cb45aef9bdf445400ee, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8458180954112730869, guid: b0b7bf30516f6cb45aef9bdf445400ee, type: 3}
       propertyPath: jumpForce
-      value: 0.25
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8458180954112730869, guid: b0b7bf30516f6cb45aef9bdf445400ee, type: 3}
       propertyPath: moveSpeed
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458180954112730869, guid: b0b7bf30516f6cb45aef9bdf445400ee, type: 3}
+      propertyPath: groundDrag
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458180954112730869, guid: b0b7bf30516f6cb45aef9bdf445400ee, type: 3}
+      propertyPath: jumpCooldown
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
