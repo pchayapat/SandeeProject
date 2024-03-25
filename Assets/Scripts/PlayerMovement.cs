@@ -58,6 +58,13 @@ public class PlayerMovement : MonoBehaviour
             } 
         }
 
+        if(Input.GetKey(KeyCode.T)){
+            animator.SetBool("isDance",true);
+        }
+        else{
+            animator.SetBool("isDance",false);
+        }
+
     }
     private void FixedUpdate()
     {
