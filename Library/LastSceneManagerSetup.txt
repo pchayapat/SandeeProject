@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/PlayerSetting.unity
+- path: Assets/Toon Adventure Island/Scenes/Demo_Island.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
