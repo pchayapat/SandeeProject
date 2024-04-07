@@ -370,6 +370,7 @@
 "Assets/Scripts/Player - Inventory/InventoryManager.cs"
 "Assets/Scripts/Player - Inventory/InventorySlot.cs"
 "Assets/Scripts/Player - Inventory/OpenInventory.cs"
+"Assets/Scripts/Player - MissionCheck/MissionCheck.cs"
 "Assets/Scripts/Player - Movement & Camera/MoveCamera.cs"
 "Assets/Scripts/Player - Movement & Camera/PlayerCam.cs"
 "Assets/Scripts/Player - Movement & Camera/PlayerMovement.cs"

@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Player - Inventory\InventorySlot.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\PickUpController.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryManager.cs" />
+     <Compile Include="Assets\Scripts\Player - MissionCheck\MissionCheck.cs" />
      <Compile Include="Assets\Scripts\MInigame\HeartManager.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\CollectItem.cs" />
      <Compile Include="Assets\Scripts\Player - Movement &amp; Camera\PlayerMovement.cs" />

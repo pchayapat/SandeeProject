@@ -22,13 +22,13 @@ public class TimeLevel : MonoBehaviour
         currentTime -= 1*Time.deltaTime;
         countdownText.text = "Time : " + Mathf.Round(currentTime);
 
-        if(currentTime <= 0)
-        {
-            currentTime = 0;
-            if(Level1.gameObject.activeSelf == true && ScoreManager.scoreCount < 20)
-            {
-                SceneManager.LoadScene("GameOver");
-            }
-        }
+        // if(currentTime <= 0)
+        // {
+        //     currentTime = 0;
+        //     if(Level1.gameObject.activeSelf == true && ScoreManager.scoreCount < 20)
+        //     {
+        //         SceneManager.LoadScene("GameOver");
+        //     }
+        // }
     }
 }

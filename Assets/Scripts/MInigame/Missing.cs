@@ -16,6 +16,10 @@ public class Missing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MissingText.text = "Heart : " + Mathf.Round(MissingCount);
+        MissingText.text = "Your chances : " + Mathf.Round(MissingCount);
+
+        if(MissingCount == 0){
+            Debug.Log("Game Over!");
+        }
     }
 }

@@ -25,6 +25,11 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         scoreText.text = "Score : " + Mathf.Round(scoreCount);
+
+        if(scoreCount >= 4 && MissionCheck.Mission1 == false){
+            MissionCheck.Mission1 = true;
+        }
+
         // if(Level1.gameObject.activeSelf == true && scoreCount>=10){
         //     scoreCount = 0;
         //     levelPlayer = 2;
