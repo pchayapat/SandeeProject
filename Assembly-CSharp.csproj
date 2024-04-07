@@ -40,19 +40,19 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Player - Movement &amp; Camera\MoveCamera.cs" />
      <Compile Include="Assets\ThirdParty\Toon Adventure Island\Scripts\Source\Flock.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\OpenInventory.cs" />
+     <Compile Include="Assets\Scripts\Player - Movement &amp; Camera\PlayerCam.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryItem.cs" />
      <Compile Include="Assets\ThirdParty\Toon Adventure Island\Scripts\Source\GlobalFlock.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
-     <Compile Include="Assets\Scripts\PlayerCam.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\DemoScript.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventorySlot.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\PickUpController.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryManager.cs" />
-     <Compile Include="Assets\Scripts\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\CollectItem.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Player - Movement &amp; Camera\PlayerMovement.cs" />
      <None Include="Assets\ThirdParty\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
      <None Include="Assets\ThirdParty\Toon Adventure Island\Shaders\TAI_CustomToon.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />

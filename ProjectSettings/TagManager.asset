@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - BlueCube
+  - RedCube
+  - GreenCube
+  - YellowCube
+  - BlueBin
+  - RedBin
+  - GreenBin
+  - YellowBin
   layers:
   - Default
   - TransparentFX

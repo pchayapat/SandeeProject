@@ -179,18 +179,18 @@ public class InventoryManager : MonoBehaviour
                 Debug.Log("True");
                 //ScoreManager.scoreCount += 1;
             }
-            // else if(child.gameObject.CompareTag("RedCube") && BinType == 4){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("GreenCube") && BinType == 1){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("YellowCube") && BinType == 3){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
+            else if(child.gameObject.CompareTag("RedCube") && BinType == 4){
+                Debug.Log("True");
+                //ScoreManager.scoreCount += 1;
+            }
+            else if(child.gameObject.CompareTag("GreenCube") && BinType == 1){
+                Debug.Log("True");
+                //ScoreManager.scoreCount += 1;
+            }
+            else if(child.gameObject.CompareTag("YellowCube") && BinType == 3){
+                Debug.Log("True");
+                //ScoreManager.scoreCount += 1;
+            }
             // else if(child.gameObject.CompareTag("burger") && BinType == 1){
             //     Debug.Log("True");
             //     ScoreManager.scoreCount += 1;
@@ -235,11 +235,11 @@ public class InventoryManager : MonoBehaviour
             //     Debug.Log("True");
             //     ScoreManager.scoreCount += 1;
             // }
-            // else
-            // {
-            //     Debug.Log("False");
-            //     ScoreManager.scoreCount -= 1;
-            // }
+            else
+            {
+                Debug.Log("False");
+                //ScoreManager.scoreCount -= 1;
+            }
         }
     }
     public void ItemUpdate()

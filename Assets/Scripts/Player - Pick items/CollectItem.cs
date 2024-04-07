@@ -14,38 +14,36 @@ public class CollectItem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            Debug.Log("F");
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
             if (Physics.Raycast(ray, out hit, raycastDistance))
             {
-                Debug.Log("inF");
                 // //bin
-                // if(hit.collider.CompareTag("FoodWaste"))
-                // {
-                //     Debug.Log("Hit " + hit.collider.name);
-                //     Item receivedItem = inventoryManager.ThrowItem(true);
-                //     inventoryManager.CheckTypes(1);
-                // }
-                // if(hit.collider.CompareTag("GeneralWaste"))
-                // {
-                //     Debug.Log("Hit " + hit.collider.name);
-                //     Item receivedItem = inventoryManager.ThrowItem(true);
-                //     inventoryManager.CheckTypes(2);
-                // }
-                // if(hit.collider.CompareTag("RecycleWaste"))
-                // {
-                //     Debug.Log("Hit " + hit.collider.name);
-                //     Item receivedItem = inventoryManager.ThrowItem(true);
-                //     inventoryManager.CheckTypes(3);
-                // }
-                // if(hit.collider.CompareTag("HazardousWaste"))
-                // {
-                //     Debug.Log("Hit " + hit.collider.name);
-                //     Item receivedItem = inventoryManager.ThrowItem(true);
-                //     inventoryManager.CheckTypes(4);
-                // }
+                if(hit.collider.CompareTag("GreenBin"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Item receivedItem = inventoryManager.ThrowItem(true);
+                    inventoryManager.CheckTypes(1);
+                }
+                if(hit.collider.CompareTag("BlueBin"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Item receivedItem = inventoryManager.ThrowItem(true);
+                    inventoryManager.CheckTypes(2);
+                }
+                if(hit.collider.CompareTag("YellowBin"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Item receivedItem = inventoryManager.ThrowItem(true);
+                    inventoryManager.CheckTypes(3);
+                }
+                if(hit.collider.CompareTag("RedBin"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Item receivedItem = inventoryManager.ThrowItem(true);
+                    inventoryManager.CheckTypes(4);
+                }
 
                 // //object
                 if(hit.collider.CompareTag("BlueCube"))
@@ -56,30 +54,30 @@ public class CollectItem : MonoBehaviour
                     inventoryManager.AddItem(itemsToPickup[0]);
                     inventoryManager.ItemUpdate();
                 }
-                // if(hit.collider.CompareTag("RedCube"))
-                // {
-                //     Debug.Log("Hit " + hit.collider.name);
-                //     Destroy(hit.collider.gameObject);
-                //     Debug.Log(itemsToPickup[1]);
-                //     inventoryManager.AddItem(itemsToPickup[1]);
-                //     inventoryManager.ItemUpdate();
-                // }
-                // if(hit.collider.CompareTag("GreenCube"))
-                // {
-                //     Debug.Log("Hit " + hit.collider.name);
-                //     Destroy(hit.collider.gameObject);
-                //     Debug.Log(itemsToPickup[2]);
-                //     inventoryManager.AddItem(itemsToPickup[2]);
-                //     inventoryManager.ItemUpdate();
-                // }
-                // if(hit.collider.CompareTag("YellowCube"))
-                // {
-                //     Debug.Log("Hit " + hit.collider.name);
-                //     Destroy(hit.collider.gameObject);
-                //     Debug.Log(itemsToPickup[3]);
-                //     inventoryManager.AddItem(itemsToPickup[3]);
-                //     inventoryManager.ItemUpdate();
-                // }
+                if(hit.collider.CompareTag("RedCube"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[1]);
+                    inventoryManager.AddItem(itemsToPickup[1]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("GreenCube"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[2]);
+                    inventoryManager.AddItem(itemsToPickup[2]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("YellowCube"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[3]);
+                    inventoryManager.AddItem(itemsToPickup[3]);
+                    inventoryManager.ItemUpdate();
+                }
                 // if(hit.collider.CompareTag("burger"))
                 // {
                 //     Debug.Log("Hit " + hit.collider.name);
