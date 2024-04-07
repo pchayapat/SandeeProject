@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -216,8 +216,8 @@ MonoBehaviour:
     y: 0
     width: 468
     height: 734
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -366,8 +366,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -380,18 +380,18 @@ MonoBehaviour:
       y: 21
       width: 1179
       height: 692
-    m_Scale: {x: 1.0608999, y: 1.0608999}
-    m_Translation: {x: 598.63495, y: 341.88916}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 589.5, y: 346}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -564.27094
-      y: -322.26337
-      width: 1111.3207
-      height: 652.2765
+      x: -589.5
+      y: -346
+      width: 1179
+      height: 692
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1179, y: 713}
@@ -439,7 +439,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 12fbffff
+      m_ExpandedIDs: d636f8ff8a38f8ffc43cf8ffae3df8ffb643f8ff12fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -806,9 +806,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -105.67882, y: -0.016357899, z: 45.562935}
+    m_Target: {x: 1.637187, y: -0.18206787, z: 2.8331037}
     speed: 2
-    m_Value: {x: -105.67882, y: -0.016357899, z: 45.562935}
+    m_Value: {x: 1.637187, y: -0.18206787, z: 2.8331037}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -854,13 +854,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.13052377, y: 0.39464092, z: -0.05674468, w: -0.90774876}
+    m_Target: {x: -0.22488138, y: -0.581919, z: 0.17163219, w: -0.7624612}
     speed: 2
-    m_Value: {x: -0.13052376, y: 0.3946409, z: -0.056744676, w: -0.9077487}
+    m_Value: {x: -0.22550562, y: -0.58394295, z: 0.17318164, w: -0.7603723}
   m_Size:
-    m_Target: 10.053176
+    m_Target: 3.9911544
     speed: 2
-    m_Value: 10.053176
+    m_Value: 3.9911544
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -930,7 +930,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Toon Adventure Island/Textures
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -938,16 +938,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Toon Adventure Island/Textures
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a820100
-    m_LastClickedID: 98954
-    m_ExpandedIDs: 00000000c4810100c6810100c8810100ca810100cc810100ce810100d0810100d2810100d4810100d681010000ca9a3b
+    m_SelectedIDs: 66820100
+    m_LastClickedID: 98918
+    m_ExpandedIDs: 00000000c4810100c6810100c8810100ca810100cc810100ce810100d0810100d481010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

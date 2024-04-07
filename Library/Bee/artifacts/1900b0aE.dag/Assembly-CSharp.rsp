@@ -370,8 +370,8 @@
 "Assets/Scripts/Player - Pick items/PickUpController.cs"
 "Assets/Scripts/PlayerCam.cs"
 "Assets/Scripts/PlayerMovement.cs"
-"Assets/Toon Adventure Island/Scripts/Source/Flock.cs"
-"Assets/Toon Adventure Island/Scripts/Source/GlobalFlock.cs"
+"Assets/ThirdParty/Toon Adventure Island/Scripts/Source/Flock.cs"
+"Assets/ThirdParty/Toon Adventure Island/Scripts/Source/GlobalFlock.cs"
 -langversion:9.0
 
 /deterministic

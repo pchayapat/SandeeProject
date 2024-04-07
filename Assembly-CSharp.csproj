@@ -40,9 +40,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Toon Adventure Island\Scripts\Source\GlobalFlock.cs" />
+     <Compile Include="Assets\ThirdParty\Toon Adventure Island\Scripts\Source\Flock.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\OpenInventory.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryItem.cs" />
+     <Compile Include="Assets\ThirdParty\Toon Adventure Island\Scripts\Source\GlobalFlock.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\PlayerCam.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\DemoScript.cs" />
@@ -51,10 +52,9 @@
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryManager.cs" />
      <Compile Include="Assets\Scripts\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\CollectItem.cs" />
-     <Compile Include="Assets\Toon Adventure Island\Scripts\Source\Flock.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <None Include="Assets\ThirdParty\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
-     <None Include="Assets\Toon Adventure Island\Shaders\TAI_CustomToon.shader" />
+     <None Include="Assets\ThirdParty\Toon Adventure Island\Shaders\TAI_CustomToon.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />
      <None Include="Assets\ThirdParty\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample_Shared.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_attribute.hlsl" />
@@ -64,8 +64,8 @@
      <None Include="Assets\ThirdParty\VRMShaders\GLTF\IO\Resources\UniGLTF\NormalMapExporter.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthnormals_fragment.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_mtoon.hlsl" />
-     <None Include="Assets\Toon Adventure Island\Shaders\TAI_CustomGrass.shader" />
-     <None Include="Assets\Toon Adventure Island\_ReadFirst.txt" />
+     <None Include="Assets\ThirdParty\Toon Adventure Island\Shaders\TAI_CustomGrass.shader" />
+     <None Include="Assets\ThirdParty\Toon Adventure Island\_ReadFirst.txt" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_shadowcaster_vertex.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_vertex.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapExporter.shader" />
@@ -77,16 +77,16 @@
      <None Include="Assets\ShaderGraphsMToonForURPVR-master\Assets\SimplestarGame\ShaderGraphsMToon\Includes\Outline.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_unity.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthonly_fragment.hlsl" />
-     <None Include="Assets\Toon Adventure Island\Shaders\TAI_ToonFire.shader" />
+     <None Include="Assets\ThirdParty\Toon Adventure Island\Shaders\TAI_ToonFire.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthonly_vertex.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_utility.hlsl" />
-     <None Include="Assets\Toon Adventure Island\Shaders\TAI_CustomToonVegetation.shader" />
+     <None Include="Assets\ThirdParty\Toon Adventure Island\Shaders\TAI_CustomToonVegetation.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapImporter.shader" />
      <None Include="Assets\ThirdParty\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\Unity-Technologies\ShaderGraph-Custom-Lighting\Includes\CustomLighting.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_render_pipeline.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\GLTF\UniUnlit\Resources\UniGLTF\UniUnlit.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_normal.hlsl" />
-     <None Include="Assets\Toon Adventure Island\Shaders\TAI_ToonWater.shader" />
+     <None Include="Assets\ThirdParty\Toon Adventure Island\Shaders\TAI_ToonWater.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_shadowcaster_fragment.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_define.hlsl" />
     <Reference Include="UnityEngine">

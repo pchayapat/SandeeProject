@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Toon Adventure Island/Scenes/Demo_Island.unity
+- path: Assets/Scenes/Minigame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
