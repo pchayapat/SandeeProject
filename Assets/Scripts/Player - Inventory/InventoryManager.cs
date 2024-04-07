@@ -69,39 +69,6 @@ public class InventoryManager : MonoBehaviour
                         case "yellowcube":
                             InstantiateAndDestroy(itemsPrefabs[3], handPosition);
                             break;
-                        case "burger":
-                            InstantiateAndDestroy(itemsPrefabs[4], handPosition);
-                            break;
-                        case "donut":
-                            InstantiateAndDestroy(itemsPrefabs[5], handPosition);
-                            break;
-                        case "fish":
-                            InstantiateAndDestroy(itemsPrefabs[6], handPosition);
-                            break;
-                        case "bottle":
-                            InstantiateAndDestroy(itemsPrefabs[7], handPosition);
-                            break;
-                        case "barrelgreen":
-                            InstantiateAndDestroy(itemsPrefabs[8], handPosition);
-                            break;
-                        case "barrelgrey":
-                            InstantiateAndDestroy(itemsPrefabs[9], handPosition);
-                            break;
-                        case "barrelorange":
-                            InstantiateAndDestroy(itemsPrefabs[10], handPosition);
-                            break;
-                        case "cokecan":
-                            InstantiateAndDestroy(itemsPrefabs[11], handPosition);
-                            break;
-                        case "paper1":
-                            InstantiateAndDestroy(itemsPrefabs[12], handPosition);
-                            break;
-                        case "paper2":
-                            InstantiateAndDestroy(itemsPrefabs[13], handPosition);
-                            break;
-                        case "paper3":
-                            InstantiateAndDestroy(itemsPrefabs[14], handPosition);
-                            break;
                     }
                 }
             }
@@ -177,67 +144,24 @@ public class InventoryManager : MonoBehaviour
         {
             if(child.gameObject.CompareTag("BlueCube") && BinType == 2){
                 Debug.Log("True");
-                //ScoreManager.scoreCount += 1;
+                ScoreManager.scoreCount += 1;
             }
             else if(child.gameObject.CompareTag("RedCube") && BinType == 4){
                 Debug.Log("True");
-                //ScoreManager.scoreCount += 1;
+                ScoreManager.scoreCount += 1;
             }
             else if(child.gameObject.CompareTag("GreenCube") && BinType == 1){
                 Debug.Log("True");
-                //ScoreManager.scoreCount += 1;
+                ScoreManager.scoreCount += 1;
             }
             else if(child.gameObject.CompareTag("YellowCube") && BinType == 3){
                 Debug.Log("True");
-                //ScoreManager.scoreCount += 1;
+                ScoreManager.scoreCount += 1;
             }
-            // else if(child.gameObject.CompareTag("burger") && BinType == 1){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("donut") && BinType == 1){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("fish") && BinType == 1){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("bottle") && BinType == 2){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("barrelgreen") && BinType == 4){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("barrelgrey") && BinType == 4){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("barrelorange") && BinType == 4){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("cokecan") && BinType == 2){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("paper1") && BinType == 3){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("paper2") && BinType == 3){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
-            // else if(child.gameObject.CompareTag("paper3") && BinType == 3){
-            //     Debug.Log("True");
-            //     ScoreManager.scoreCount += 1;
-            // }
             else
             {
                 Debug.Log("False");
+                Missing.MissingCount -= 1;
                 //ScoreManager.scoreCount -= 1;
             }
         }

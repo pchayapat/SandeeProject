@@ -47,12 +47,17 @@
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryItem.cs" />
      <Compile Include="Assets\ThirdParty\Toon Adventure Island\Scripts\Source\GlobalFlock.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
+     <Compile Include="Assets\Scripts\MInigame\Missing.cs" />
+     <Compile Include="Assets\Scripts\MInigame\healthSystem.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\DemoScript.cs" />
+     <Compile Include="Assets\Scripts\MInigame\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventorySlot.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\PickUpController.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryManager.cs" />
+     <Compile Include="Assets\Scripts\MInigame\HeartManager.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\CollectItem.cs" />
      <Compile Include="Assets\Scripts\Player - Movement &amp; Camera\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\MInigame\TimeLevel.cs" />
      <None Include="Assets\ThirdParty\SimplestarGame\SimpleURPToonLitOutlineExample\Resources\SimpleURPToonLitOutlineExample\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
      <None Include="Assets\ThirdParty\Toon Adventure Island\Shaders\TAI_CustomToon.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />
