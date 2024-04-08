@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\MInigame\Missing.cs" />
      <Compile Include="Assets\Scripts\MInigame\healthSystem.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\DemoScript.cs" />
+     <Compile Include="Assets\Scripts\Pet - NavMeshAI\followAI.cs" />
      <Compile Include="Assets\Scripts\MInigame\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventorySlot.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\PickUpController.cs" />
