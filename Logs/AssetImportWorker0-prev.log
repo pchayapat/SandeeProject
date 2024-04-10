@@ -15,7 +15,7 @@ D:/P_Project/Unity/SandeeProject/SandeeProject/SandeeProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49677
+50890
 Successfully changed project path to: D:/P_Project/Unity/SandeeProject/SandeeProject/SandeeProject
 D:/P_Project/Unity/SandeeProject/SandeeProject/SandeeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/P_Project/Unity/SandeeProject/SandeeProject/SandeeProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17128] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 542484296 [EditorId] 542484296 [Version] 1048832 [Id] WindowsEditor(7,pchayapat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19768] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 4250261619 [EditorId] 4250261619 [Version] 1048832 [Id] WindowsEditor(7,pchayapat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17128] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 542484296 [EditorId] 542484296 [Version] 1048832 [Id] WindowsEditor(7,pchayapat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19768] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 4250261619 [EditorId] 4250261619 [Version] 1048832 [Id] WindowsEditor(7,pchayapat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006327 seconds.
-- Loaded All Assemblies, in  0.400 seconds
+Registered in 0.008831 seconds.
+- Loaded All Assemblies, in  0.452 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.452 seconds
-Domain Reload Profiling: 851ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.352 seconds
+Domain Reload Profiling: 802ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (96ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (175ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (452ms)
+	FinalizeReload (352ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (380ms)
+		SetupLoadedEditorAssemblies (275ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.941 seconds
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.823 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -127,49 +127,49 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.735 seconds
-Domain Reload Profiling: 1675ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1428ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (666ms)
-		LoadAssemblies (300ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (594ms)
+		LoadAssemblies (285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (438ms)
-			TypeCache.Refresh (406ms)
-				TypeCache.ScanAssembly (391ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (736ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (340ms)
+				TypeCache.ScanAssembly (328ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (606ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (529ms)
+		SetupLoadedEditorAssemblies (444ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (396ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3933 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (347.1 KB). Loaded Objects now: 4408.
-Memory consumption went from 147.6 MB to 147.3 MB.
-Total: 3.118700 ms (FindLiveObjects: 0.300800 ms CreateObjectMapping: 0.320700 ms MarkObjects: 2.284700 ms  DeleteObjects: 0.211500 ms)
+Unloading 4111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (0.5 MB). Loaded Objects now: 4586.
+Memory consumption went from 166.1 MB to 165.6 MB.
+Total: 5.915400 ms (FindLiveObjects: 0.558800 ms CreateObjectMapping: 0.461700 ms MarkObjects: 4.293300 ms  DeleteObjects: 0.599900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,68 +185,60 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 338391.660478 seconds.
-  path: Assets/Scenes/Minigame.unity
-  artifactKey: Guid(19dfed49c561f8644a59b65bb2d7ddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Minigame.unity using Guid(19dfed49c561f8644a59b65bb2d7ddbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774d818d6e2d3020f0122e884a0e4e7e') in 0.003157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.805 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.769 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.815 seconds
-Domain Reload Profiling: 1619ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.747 seconds
+Domain Reload Profiling: 1514ms
+	BeginReloadAssembly (143ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (579ms)
-		LoadAssemblies (272ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (544ms)
+		LoadAssemblies (249ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (363ms)
-				TypeCache.ScanAssembly (352ms)
+		AnalyzeDomain (357ms)
+			TypeCache.Refresh (349ms)
+				TypeCache.ScanAssembly (334ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (816ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (747ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (437ms)
+		SetupLoadedEditorAssemblies (396ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3912 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (319.8 KB). Loaded Objects now: 4423.
-Memory consumption went from 143.0 MB to 142.7 MB.
-Total: 3.159700 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.312700 ms MarkObjects: 2.330400 ms  DeleteObjects: 0.191100 ms)
+Unloading 4074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (484.7 KB). Loaded Objects now: 4601.
+Memory consumption went from 157.1 MB to 156.6 MB.
+Total: 3.196200 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.358600 ms MarkObjects: 2.186700 ms  DeleteObjects: 0.270200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -262,3 +254,727 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 545900.893548 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree
+  artifactKey: Guid(04a34f383a9709c489469976520a31ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree using Guid(04a34f383a9709c489469976520a31ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b95e0c9d9da70f4630228712ec7add') in 0.002017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.753899 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees
+  artifactKey: Guid(bc8f579e82ac3024789987907a8f9ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees using Guid(bc8f579e82ac3024789987907a8f9ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5e07b840f860f94c3244febe15b41e') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.036197 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Birch_01_BB.mat
+  artifactKey: Guid(4d6b194cf90bd53419f226f021f2cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Birch_01_BB.mat using Guid(4d6b194cf90bd53419f226f021f2cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbf3a12fdb15546ae4559d2305e905b') in 0.442903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/SM_TreeLarge_04_Unity.fbx
+  artifactKey: Guid(03c8fc449b11f4846bf8fb8af3c3aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/SM_TreeLarge_04_Unity.fbx using Guid(03c8fc449b11f4846bf8fb8af3c3aeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9107748afa28fc7af853b6142c4c0ef') in 0.931669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TrreeLarge_02_BB.png
+  artifactKey: Guid(fb502cb40532213409dd2786c19281cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TrreeLarge_02_BB.png using Guid(fb502cb40532213409dd2786c19281cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7245353cc5a35b66a40f14735613437d') in 0.026409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/SM_TreeLarge_03_Unity.fbx
+  artifactKey: Guid(b87bdddc58b64524a99a2d9cd8021c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/SM_TreeLarge_03_Unity.fbx using Guid(b87bdddc58b64524a99a2d9cd8021c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a31f2bf6290c54658f4be37371ed9b2') in 0.091441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TrreeLarge_01_BB.png
+  artifactKey: Guid(fd60bf1e3f7682a40b1806950e7b71fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TrreeLarge_01_BB.png using Guid(fd60bf1e3f7682a40b1806950e7b71fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74809c97044895c07dfef06ec83374f4') in 0.013463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_TreeLarge_03.prefab
+  artifactKey: Guid(d5791b48d5a368745ab610ece80216ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_TreeLarge_03.prefab using Guid(d5791b48d5a368745ab610ece80216ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733033fca9be2219726bab3d0f160231') in 0.042567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Bush_Bark.mat
+  artifactKey: Guid(0691ce41ee2aa324c8b80bdd551807ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Bush_Bark.mat using Guid(0691ce41ee2aa324c8b80bdd551807ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef320b39bac2eed987b71be20700fa8') in 0.021771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Birch_05_BB.mat
+  artifactKey: Guid(4de232bcb20b33e4b84182ceada95630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Birch_05_BB.mat using Guid(4de232bcb20b33e4b84182ceada95630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8028f8322486d9756146ac830d243dbb') in 0.018222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TreeLarge_Bark_C.png
+  artifactKey: Guid(87b4e805faeb359459af85745daaa1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TreeLarge_Bark_C.png using Guid(87b4e805faeb359459af85745daaa1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256b7f6b1c076e547639c08217e57b2c') in 0.018628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_TreeLarge_02.prefab
+  artifactKey: Guid(10b4c149ea70f1347a52ea09807bfb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_TreeLarge_02.prefab using Guid(10b4c149ea70f1347a52ea09807bfb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69947f023dc627cc184c9767f38e84b') in 0.047631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TreeLarge_Bark_R.png
+  artifactKey: Guid(f50f48b940c7a414ebe5f272bef31e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TreeLarge_Bark_R.png using Guid(f50f48b940c7a414ebe5f272bef31e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dc1bb8e390638cb9351b1cdc8f949d') in 0.021141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_TreeLarge_BB_01.mat
+  artifactKey: Guid(b253e55cdc2b7c245821e1396a8d48aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_TreeLarge_BB_01.mat using Guid(b253e55cdc2b7c245821e1396a8d48aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a32a0921098813742a3a12dc10374e') in 0.015605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Birch_03_BB.mat
+  artifactKey: Guid(f6b6d5c9aa31f4c43a75daf214887ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Birch_03_BB.mat using Guid(f6b6d5c9aa31f4c43a75daf214887ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de41bb9dbdd3b5e02f9a755c9810b9b3') in 0.014380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_Birch_02.prefab
+  artifactKey: Guid(32d3db38af308cc4a86540a04c1e129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_Birch_02.prefab using Guid(32d3db38af308cc4a86540a04c1e129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c17c53a1f83f81c03d7a81b2d1928a2') in 0.331648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Birch_04_BB.mat
+  artifactKey: Guid(eb9f6bc5ec23b3242a8e3cf36f626c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_Birch_04_BB.mat using Guid(eb9f6bc5ec23b3242a8e3cf36f626c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e055ffbc3c90ea567cd1c248cb0ef0a7') in 0.017835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_TreeBirch_Leaves.mat
+  artifactKey: Guid(80bac2b3309d3d34c85971907111c725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_TreeBirch_Leaves.mat using Guid(80bac2b3309d3d34c85971907111c725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0376f30157a0ac2c946756a27da36f7d') in 0.014475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_Birch_04_BB.png
+  artifactKey: Guid(d70e66cc0dafe1f46b75cd840d3ade6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_Birch_04_BB.png using Guid(d70e66cc0dafe1f46b75cd840d3ade6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1583cd9d98e8bbe6cdd3c4c500cf42') in 0.016106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_TreeLarge_Bark.mat
+  artifactKey: Guid(4863f36fbf7fbe740b49709e27b56f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_TreeLarge_Bark.mat using Guid(4863f36fbf7fbe740b49709e27b56f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268fdd9e8abf88c9c321264ae9f936d9') in 0.045321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_Tree_Birch_Rework_R.png
+  artifactKey: Guid(5356e9dc8156c0b41a1778e7b025e62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_Tree_Birch_Rework_R.png using Guid(5356e9dc8156c0b41a1778e7b025e62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7c6dfdc12a369291f9933bdeecc67a') in 0.014303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_Birch_03_Red.prefab
+  artifactKey: Guid(392624d6f12b1eb4ea94da6c9f92c592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_Birch_03_Red.prefab using Guid(392624d6f12b1eb4ea94da6c9f92c592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b58a2de0bfa491fc3a6822dd1308722') in 0.043725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TreeLarge_Bark_N.png
+  artifactKey: Guid(f70e4e55eb0e6774db1b425d9cb43d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TreeLarge_Bark_N.png using Guid(f70e4e55eb0e6774db1b425d9cb43d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91457656558f1e97aaa3ea7f4808e1e') in 0.037297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TrreeLarge_03_BB.png
+  artifactKey: Guid(bd7c1337949f3374ebe47e9855ce2fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_TrreeLarge_03_BB.png using Guid(bd7c1337949f3374ebe47e9855ce2fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54612db12ea1b5b0a649a45ab7e26788') in 0.015250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_Birch_05_BB.png
+  artifactKey: Guid(6ee8d9a9efdc2e349931657467141fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/T_Birch_05_BB.png using Guid(6ee8d9a9efdc2e349931657467141fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d35eae1674958f5ea6d3c5de4c3f7a0') in 0.015035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/SM_TreeLarge_02_Unity.fbx
+  artifactKey: Guid(583757d1d61978948a31116e9060c719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/SM_TreeLarge_02_Unity.fbx using Guid(583757d1d61978948a31116e9060c719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707f3598d8498e325dac2b47e4452566') in 0.081943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_TreeBirch_Leaves_Red.mat
+  artifactKey: Guid(f07e7b29a5520b940bfcc4528607dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/M_TreeBirch_Leaves_Red.mat using Guid(f07e7b29a5520b940bfcc4528607dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd861a173773eecbb982c64682b04e732') in 0.013784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_TreeLarge_04.prefab
+  artifactKey: Guid(dbe24c59355c97e44a773f2bea8a279f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Tree/Trees/Prefab_TreeLarge_04.prefab using Guid(dbe24c59355c97e44a773f2bea8a279f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5667e70a90eede3bc8cbd48b3c1e8bdc') in 0.052462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 33.140386 seconds.
+  path: Assets/Scenes/Suntail Village.unity
+  artifactKey: Guid(f92dfda6574c0dd4bb785010bc97a9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Suntail Village.unity using Guid(f92dfda6574c0dd4bb785010bc97a9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd087a4fb3773142e4d87036b1b155549') in 0.000450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 63.141615 seconds.
+  path: Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Grass3-1b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(1bde6ad53a3ba8843bc1e1f3bd820f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Grass3-1b3407d0e55802f81.terrainlayer using Guid(1bde6ad53a3ba8843bc1e1f3bd820f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26b0109bd30aa2f780b2c9703ef7765') in 0.028974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Grass3-3b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(861db77bb0edd7f469920fda5a48b06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Grass3-3b3407d0e55802f81.terrainlayer using Guid(861db77bb0edd7f469920fda5a48b06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84fc4228551d727ec63179afb2612b7') in 0.071137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Road3-3b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(a541303d8ae1f29408e4e1208cfffddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Road3-3b3407d0e55802f81.terrainlayer using Guid(a541303d8ae1f29408e4e1208cfffddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00015464e50be04589ce7455981114e') in 0.038883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Road3-1b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(1f2d1925cc72798429aadbf2df7735e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Road3-1b3407d0e55802f81.terrainlayer using Guid(1f2d1925cc72798429aadbf2df7735e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571df6ac079b12a461c5bf79b5fdb6aa') in 0.028603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Grassb3407d0e55802f81.terrainlayer
+  artifactKey: Guid(573aec764d3d8244588b188cd93fe529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/_TerrainAutoUpgrade/layer_Grassb3407d0e55802f81.terrainlayer using Guid(573aec764d3d8244588b188cd93fe529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f20d2860667d503e9d9ea5898c425c8') in 0.032375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.665775 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Demo/Suntail Village/Demo_Skybox.mat
+  artifactKey: Guid(428055dd18a974a439a7cc40a8eff446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Demo/Suntail Village/Demo_Skybox.mat using Guid(428055dd18a974a439a7cc40a8eff446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b9b1704e3c1937fb586ab8f817f80b') in 0.102258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Demo/Suntail Village/Village_Terrain.asset
+  artifactKey: Guid(e9e4b7b9b69d78648b394793ef62b824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Demo/Suntail Village/Village_Terrain.asset using Guid(e9e4b7b9b69d78648b394793ef62b824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6385896cf5aed84572d4d2a8f46a38fd') in 0.034029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Demo/Suntail Village/TerrainData_e8d94d42-e227-4d50-bdca-2d3eb5837c7c.asset
+  artifactKey: Guid(c83f44ff33221634cb74fa050aa70062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Demo/Suntail Village/TerrainData_e8d94d42-e227-4d50-bdca-2d3eb5837c7c.asset using Guid(c83f44ff33221634cb74fa050aa70062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd53d67818697eb1919524369ae68d59') in 0.015863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Demo/Suntail Village/OcclusionCullingData.asset
+  artifactKey: Guid(d318dee441e862f449ed08090bb5b4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Demo/Suntail Village/OcclusionCullingData.asset using Guid(d318dee441e862f449ed08090bb5b4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf7cc3eca1e75c76ada1d17506931cc') in 0.063254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.202123 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Materials/bush_d1.mat
+  artifactKey: Guid(830f0a9939bf105478de71de9bb1fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Materials/bush_d1.mat using Guid(830f0a9939bf105478de71de9bb1fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f471cebb4ac55416842222715dabdacb') in 0.209276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.147638 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_01a.fbx
+  artifactKey: Guid(d5250e0ad00303e4f92371864d4b783f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_01a.fbx using Guid(d5250e0ad00303e4f92371864d4b783f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff4129e669885379e7613cad28b850e') in 0.015969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_02a.fbx
+  artifactKey: Guid(a51a4aef6f4c94a459aefc81d0a0f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_02a.fbx using Guid(a51a4aef6f4c94a459aefc81d0a0f414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d77700c66e765beb6c69f6f5fc1ad9') in 0.019367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_04d.fbx
+  artifactKey: Guid(4839df8eb937a0f4dbc33d18718df5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_04d.fbx using Guid(4839df8eb937a0f4dbc33d18718df5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd257d7931f4c9f6d9e249a0cc1181b79') in 0.042578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_03d.fbx
+  artifactKey: Guid(c75036aedc38e0346a3a8fb748f63b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_03d.fbx using Guid(c75036aedc38e0346a3a8fb748f63b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02fba034bad3f2c8a7c7f1551e2f449') in 0.018055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_03a.fbx
+  artifactKey: Guid(238ebf9b6294cae4c8844627712d3197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_03a.fbx using Guid(238ebf9b6294cae4c8844627712d3197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35669100ae054233c12ef294f3e09e9e') in 0.023719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_01c.fbx
+  artifactKey: Guid(5aa10efbe58081a4b9cad6a2ea5d8d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_01c.fbx using Guid(5aa10efbe58081a4b9cad6a2ea5d8d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b186b27f537fd4e1ae5a3160585f1791') in 0.030129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_02b.fbx
+  artifactKey: Guid(04f327841bedb024abeee99819e61fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_02b.fbx using Guid(04f327841bedb024abeee99819e61fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9532597ddb9d46715ad65e3cb519ce') in 0.020157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_03c.fbx
+  artifactKey: Guid(5637feed28eb84c44b7bfca025875bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Models/bush_03c.fbx using Guid(5637feed28eb84c44b7bfca025875bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7309a36eb9a7f3a0083e815925a3b358') in 0.026468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.198609 seconds.
+  path: Assets/ThirdParty/Map1/HandPaintedBushPack/Textures/bush_d1.tif
+  artifactKey: Guid(3e1622e59a17016429138e9c5abdf0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/HandPaintedBushPack/Textures/bush_d1.tif using Guid(3e1622e59a17016429138e9c5abdf0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cf63d7c99233c639ec5c0c82ef833c') in 0.012365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.094166 seconds.
+  path: Assets/ThirdParty/Map1/Old Water Well/Material/Old_water_well.mat
+  artifactKey: Guid(ea453fa7624ecd2428d16d09428971b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Old Water Well/Material/Old_water_well.mat using Guid(ea453fa7624ecd2428d16d09428971b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885d28580220cea761fc923ef150031f') in 0.244838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.317509 seconds.
+  path: Assets/ThirdParty/Map1/Old Water Well/Prefab/old_water_well.prefab
+  artifactKey: Guid(6f36196fa45b4bf458acb1e445499ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Old Water Well/Prefab/old_water_well.prefab using Guid(6f36196fa45b4bf458acb1e445499ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4664a1bea696f685e09183929c742080') in 0.022287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.564755 seconds.
+  path: Assets/ThirdParty/Map1/Old Water Well/Mesh/old_water_well.FBX
+  artifactKey: Guid(64bf8ceb59b0cc3438701b264ee77add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Old Water Well/Mesh/old_water_well.FBX using Guid(64bf8ceb59b0cc3438701b264ee77add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f649f2fdc725029e4c1c5f64208320') in 0.015803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.388651 seconds.
+  path: Assets/ThirdParty/Map1/Old Water Well/Textures/All_source_textures.psd
+  artifactKey: Guid(2b5c09ede68f6d9499bf704664c92864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Old Water Well/Textures/All_source_textures.psd using Guid(2b5c09ede68f6d9499bf704664c92864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3c103bd95bfe90c27317befd97a0f4') in 0.030020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdParty/Map1/Old Water Well/Textures/old_waterwell_Normal.png
+  artifactKey: Guid(777b885af1cca494daefe15bc1fc7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Old Water Well/Textures/old_waterwell_Normal.png using Guid(777b885af1cca494daefe15bc1fc7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee55869010a9bb5073be2c983859029') in 0.027919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ThirdParty/Map1/Old Water Well/Textures/old_waterwell_MetallicSmoothness.png
+  artifactKey: Guid(9959c40881ee81f49a35137d49147f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Old Water Well/Textures/old_waterwell_MetallicSmoothness.png using Guid(9959c40881ee81f49a35137d49147f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef58041425ac5325f225d1b186f1b9a7') in 0.016302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.957594 seconds.
+  path: Assets/ThirdParty/Map1/Polyart/PolyartStudio/Waterfall/Water-Texture/T_Waterfall_Directional_Noise_N.png
+  artifactKey: Guid(26015f3ef5788b94dacfa5245a3022cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Polyart/PolyartStudio/Waterfall/Water-Texture/T_Waterfall_Directional_Noise_N.png using Guid(26015f3ef5788b94dacfa5245a3022cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a825912ad0b0c1b808159932750f23c') in 0.013931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.831158 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Materials/FX/GodRays_Glow.mat
+  artifactKey: Guid(e86dbe203d7b01d479e7c5be2e92f37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Materials/FX/GodRays_Glow.mat using Guid(e86dbe203d7b01d479e7c5be2e92f37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83acf791608220936bc9ee9d9de1f0f') in 0.077455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.753 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.790 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (342ms)
+			TypeCache.Refresh (335ms)
+				TypeCache.ScanAssembly (322ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (790ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (483.7 KB). Loaded Objects now: 4672.
+Memory consumption went from 162.6 MB to 162.1 MB.
+Total: 3.232400 ms (FindLiveObjects: 0.307200 ms CreateObjectMapping: 0.296500 ms MarkObjects: 2.389600 ms  DeleteObjects: 0.238400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.675 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.749 seconds
+Domain Reload Profiling: 1422ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (292ms)
+				TypeCache.ScanAssembly (282ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (749ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (483.7 KB). Loaded Objects now: 4687.
+Memory consumption went from 162.6 MB to 162.1 MB.
+Total: 3.196900 ms (FindLiveObjects: 0.346700 ms CreateObjectMapping: 0.386900 ms MarkObjects: 2.185200 ms  DeleteObjects: 0.277400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.744 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1501ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (316ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (404ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (483.9 KB). Loaded Objects now: 4702.
+Memory consumption went from 162.6 MB to 162.1 MB.
+Total: 3.033200 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.324600 ms MarkObjects: 2.119700 ms  DeleteObjects: 0.271300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 370.470887 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Demo/Fonts/Raygeas Logo.png
+  artifactKey: Guid(5fdbf35e9f7c9e043bb9aad265346778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Demo/Fonts/Raygeas Logo.png using Guid(5fdbf35e9f7c9e043bb9aad265346778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96b49e6f208a30a678fb022e51b78e1') in 0.107846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Demo/Fonts/Spartan-Regular.ttf
+  artifactKey: Guid(f49f5ccb8ad94934dbdc5c4f9e51b2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Demo/Fonts/Spartan-Regular.ttf using Guid(f49f5ccb8ad94934dbdc5c4f9e51b2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c447a5f825119f8a763fd1a0cd0f4882') in 0.094938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.979060 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Terrain Layers/Grass_1.terrainlayer
+  artifactKey: Guid(41fbaab410734c44583016171df068a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Terrain Layers/Grass_1.terrainlayer using Guid(41fbaab410734c44583016171df068a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7817fec9a6699e4d653175cd84f9f86') in 0.044722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Terrain Layers/Mud_2.terrainlayer
+  artifactKey: Guid(25024cb52be888841ae31c21d4e0c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Terrain Layers/Mud_2.terrainlayer using Guid(25024cb52be888841ae31c21d4e0c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53a78cfcf0c20b1d7b8b93cdfdef267') in 0.090221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/Terrain Layers/Tile_2.terrainlayer
+  artifactKey: Guid(667315d02499cda46a777a02d91c56ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/Terrain Layers/Tile_2.terrainlayer using Guid(667315d02499cda46a777a02d91c56ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b41c437e878184d4dd6d8fd76ec6be') in 0.036576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 6.156331 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/URP Shaders/URP (2022.2-2023.1).unitypackage
+  artifactKey: Guid(5d7c96f71899d1841aabf1dc6c39f835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/Suntail Village/URP Shaders/URP (2022.2-2023.1).unitypackage using Guid(5d7c96f71899d1841aabf1dc6c39f835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa48edfb90d8c98939bdbff16784a137') in 0.000941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.720542 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/URP Shaders/URP (2023.2+).unitypackage
+  artifactKey: Guid(c3a809dead3c3574dbcb7598cc18a888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Shader 'Raygeas/Suntail Foliage': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Start importing Assets/ThirdParty/Map1/Suntail Village/URP Shaders/URP (2023.2+).unitypackage using Guid(c3a809dead3c3574dbcb7598cc18a888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646a37337e54176c17d2274694ddd2a0') in 0.000958 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.066676 seconds.
+  path: Assets/ThirdParty/Map1/Suntail Village/URP Shaders/URP (2021.3-2022.1).unitypackage
+  artifactKey: Guid(926ef91c1a17cef43adf2e8185679a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Shader 'Raygeas/Suntail Foliage': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Start importing Assets/ThirdParty/Map1/Suntail Village/URP Shaders/URP (2021.3-2022.1).unitypackage using Guid(926ef91c1a17cef43adf2e8185679a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf426c09c61edd727ab39790e22a0d50') in 0.000891 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 1

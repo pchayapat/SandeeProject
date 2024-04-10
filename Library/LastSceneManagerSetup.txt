@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Sandee&Dog.unity
+- path: Assets/Scenes/Suntail Village.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

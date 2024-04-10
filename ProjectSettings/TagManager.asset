@@ -12,6 +12,8 @@ TagManager:
   - RedBin
   - GreenBin
   - YellowBin
+  - Item
+  - Door
   layers:
   - Default
   - TransparentFX

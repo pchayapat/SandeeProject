@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniGLTF.Editor", "UniGLTF.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniGLTF.Tests", "UniGLTF.Tests.csproj", "{b7cc68e4-ccab-48ef-aaf6-a24bba6e1bde}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{a911c5ff-d391-fcc6-7b78-d54b68471ab0}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MToon.Editor", "MToon.Editor.csproj", "{c55717de-5aae-8e2d-d797-87f1bc40c4f0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRMShaders.VRM10.MToon10.Editor", "VRMShaders.VRM10.MToon10.Editor.csproj", "{e24c0c43-18d3-af21-47b0-932b393af29c}"
@@ -82,6 +84,8 @@ Global
 		{273f7e18-a535-a3be-a881-d7c01e006e3c}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b7cc68e4-ccab-48ef-aaf6-a24bba6e1bde}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b7cc68e4-ccab-48ef-aaf6-a24bba6e1bde}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a911c5ff-d391-fcc6-7b78-d54b68471ab0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a911c5ff-d391-fcc6-7b78-d54b68471ab0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c55717de-5aae-8e2d-d797-87f1bc40c4f0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c55717de-5aae-8e2d-d797-87f1bc40c4f0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e24c0c43-18d3-af21-47b0-932b393af29c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
