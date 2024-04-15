@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Suntail Village.unity
+- path: Assets/Scenes/WaterfallTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
