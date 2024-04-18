@@ -175,7 +175,7 @@
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_fragment.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_alpha.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_input.hlsl" />
-     <None Include="Assets\ShaderGraphsMToonForURPVR-master\Assets\SimplestarGame\ShaderGraphsMToon\Includes\Outline.hlsl" />
+     <None Include="Assets\Patcharapon\Garbage Assests\ShaderGraphsMToonForURPVR-master\Assets\SimplestarGame\ShaderGraphsMToon\Includes\Outline.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_lighting_unity.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_depthonly_fragment.hlsl" />
      <None Include="Assets\ThirdParty\Map1\Polyart\PolyartStudio\Waterfall\Shaders\Dreamscape_WaterfallFoam.shader" />

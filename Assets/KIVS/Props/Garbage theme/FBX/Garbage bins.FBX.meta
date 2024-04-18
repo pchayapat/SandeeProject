@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: e9db0b10c7c9c104095d83d736d5a666
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _cap_pivot
+    100002: _cap_pivot 1
+    100004: _pivot_cap
+    100006: _pivot_cap 1
+    100008: Bin_comb_Cap_A_LOD0
+    100010: Bin_comb_Cap_A_LOD1
+    100012: Bin_comb_Cap_A_LOD2
+    100014: Bin_comb_Cap_B_LOD0
+    100016: Bin_comb_Cap_B_LOD1
+    100018: Bin_comb_Cap_B_LOD2
+    100020: Bin_comb_Cap_C_LOD0
+    100022: Bin_comb_Cap_C_LOD1
+    100024: Bin_comb_Cap_C_LOD2
+    100026: Bin_comb_LOD0
+    100028: Bin_comb_LOD0 1
+    100030: Bin_comb_LOD0 2
+    100032: Bin_comb_LOD0 3
+    100034: Bin_comb_LOD1
+    100036: Bin_comb_LOD1 1
+    100038: Bin_comb_LOD1 2
+    100040: Bin_comb_LOD1 3
+    100042: Bin_comb_LOD2
+    100044: Bin_comb_LOD2 1
+    100046: Bin_comb_LOD2 2
+    100048: Bin_comb_LOD2 3
+    100050: Bin_LOD0
+    100052: Bin_LOD0 1
+    100054: Bin_LOD0 2
+    100056: Bin_LOD0 3
+    100058: Bin_LOD0 4
+    100060: Bin_LOD0 5
+    100062: Bin_LOD1
+    100064: Bin_LOD1 1
+    100066: Bin_LOD1 2
+    100068: Bin_LOD1 3
+    100070: Bin_LOD1 4
+    100072: Bin_LOD1 5
+    100074: Bin_LOD2
+    100076: Bin_LOD2 1
+    100078: Bin_LOD2 2
+    100080: Bin_LOD2 3
+    100082: Bin_LOD2 4
+    100084: Bin_LOD2 5
+    100086: Cap_A_LOD0
+    100088: Cap_A_LOD1
+    100090: Cap_A_LOD2
+    100092: Cap_B_LOD0
+    100094: Cap_B_LOD1
+    100096: Cap_B_LOD2
+    100098: Cap_C_LOD0
+    100100: Cap_C_LOD1
+    100102: Cap_C_LOD2
+    100104: Cap_LOD0
+    100106: Cap_LOD0 1
+    100108: Cap_LOD1
+    100110: Cap_LOD1 1
+    100112: Cap_LOD2
+    100114: Cap_LOD2 1
+    100116: Frame_LOD0
+    100118: Frame_LOD1
+    100120: Frame_LOD2
+    100122: //RootNode
+    100124: Garbage_bin_A
+    100126: Garbage_bin_A_comb
+    100128: Garbage_bin_B
+    100130: Garbage_bin_B_comb
+    100132: Garbage_bin_C
+    100134: Garbage_bin_C_Cap_A_comb
+    100136: Garbage_bin_C_Cap_B_comb
+    100138: Garbage_bin_C_Cap_C_comb
+    100140: Garbage_bin_C_handler_LOD0
+    100142: Garbage_bin_C_handler_LOD0 1
+    100144: Garbage_bin_C_handler_LOD0 2
+    100146: Garbage_bin_C_handler_LOD0 3
+    100148: Garbage_bin_D
+    100150: Garbage_bin_E
+    100152: Garbage_bin_E_comb
+    100154: Garbage_bin_F
+    100156: Garbage_bin_F_comb
+    100158: Head_LOD0
+    100160: Head_LOD1
+    100162: Head_LOD2
+    100164: Twistcap_LOD0
+    100166: Twistcap_LOD0 1
+    100168: Twistcap_LOD1
+    100170: Twistcap_LOD1 1
+    400000: _cap_pivot
+    400002: _cap_pivot 1
+    400004: _pivot_cap
+    400006: _pivot_cap 1
+    400008: Bin_comb_Cap_A_LOD0
+    400010: Bin_comb_Cap_A_LOD1
+    400012: Bin_comb_Cap_A_LOD2
+    400014: Bin_comb_Cap_B_LOD0
+    400016: Bin_comb_Cap_B_LOD1
+    400018: Bin_comb_Cap_B_LOD2
+    400020: Bin_comb_Cap_C_LOD0
+    400022: Bin_comb_Cap_C_LOD1
+    400024: Bin_comb_Cap_C_LOD2
+    400026: Bin_comb_LOD0
+    400028: Bin_comb_LOD0 1
+    400030: Bin_comb_LOD0 2
+    400032: Bin_comb_LOD0 3
+    400034: Bin_comb_LOD1
+    400036: Bin_comb_LOD1 1
+    400038: Bin_comb_LOD1 2
+    400040: Bin_comb_LOD1 3
+    400042: Bin_comb_LOD2
+    400044: Bin_comb_LOD2 1
+    400046: Bin_comb_LOD2 2
+    400048: Bin_comb_LOD2 3
+    400050: Bin_LOD0
+    400052: Bin_LOD0 1
+    400054: Bin_LOD0 2
+    400056: Bin_LOD0 3
+    400058: Bin_LOD0 4
+    400060: Bin_LOD0 5
+    400062: Bin_LOD1
+    400064: Bin_LOD1 1
+    400066: Bin_LOD1 2
+    400068: Bin_LOD1 3
+    400070: Bin_LOD1 4
+    400072: Bin_LOD1 5
+    400074: Bin_LOD2
+    400076: Bin_LOD2 1
+    400078: Bin_LOD2 2
+    400080: Bin_LOD2 3
+    400082: Bin_LOD2 4
+    400084: Bin_LOD2 5
+    400086: Cap_A_LOD0
+    400088: Cap_A_LOD1
+    400090: Cap_A_LOD2
+    400092: Cap_B_LOD0
+    400094: Cap_B_LOD1
+    400096: Cap_B_LOD2
+    400098: Cap_C_LOD0
+    400100: Cap_C_LOD1
+    400102: Cap_C_LOD2
+    400104: Cap_LOD0
+    400106: Cap_LOD0 1
+    400108: Cap_LOD1
+    400110: Cap_LOD1 1
+    400112: Cap_LOD2
+    400114: Cap_LOD2 1
+    400116: Frame_LOD0
+    400118: Frame_LOD1
+    400120: Frame_LOD2
+    400122: //RootNode
+    400124: Garbage_bin_A
+    400126: Garbage_bin_A_comb
+    400128: Garbage_bin_B
+    400130: Garbage_bin_B_comb
+    400132: Garbage_bin_C
+    400134: Garbage_bin_C_Cap_A_comb
+    400136: Garbage_bin_C_Cap_B_comb
+    400138: Garbage_bin_C_Cap_C_comb
+    400140: Garbage_bin_C_handler_LOD0
+    400142: Garbage_bin_C_handler_LOD0 1
+    400144: Garbage_bin_C_handler_LOD0 2
+    400146: Garbage_bin_C_handler_LOD0 3
+    400148: Garbage_bin_D
+    400150: Garbage_bin_E
+    400152: Garbage_bin_E_comb
+    400154: Garbage_bin_F
+    400156: Garbage_bin_F_comb
+    400158: Head_LOD0
+    400160: Head_LOD1
+    400162: Head_LOD2
+    400164: Twistcap_LOD0
+    400166: Twistcap_LOD0 1
+    400168: Twistcap_LOD1
+    400170: Twistcap_LOD1 1
+    2100000: Garbage_bin_A
+    2100002: Garbage_bin_B
+    2100004: Garbage_bin_C
+    2100006: Garbage_bin_D
+    2100008: Garbage_bin_E
+    2100010: Garbage_bin_F
+    2300000: Bin_comb_Cap_A_LOD0
+    2300002: Bin_comb_Cap_A_LOD1
+    2300004: Bin_comb_Cap_A_LOD2
+    2300006: Bin_comb_Cap_B_LOD0
+    2300008: Bin_comb_Cap_B_LOD1
+    2300010: Bin_comb_Cap_B_LOD2
+    2300012: Bin_comb_Cap_C_LOD0
+    2300014: Bin_comb_Cap_C_LOD1
+    2300016: Bin_comb_Cap_C_LOD2
+    2300018: Bin_comb_LOD0
+    2300020: Bin_comb_LOD0 1
+    2300022: Bin_comb_LOD0 2
+    2300024: Bin_comb_LOD0 3
+    2300026: Bin_comb_LOD1
+    2300028: Bin_comb_LOD1 1
+    2300030: Bin_comb_LOD1 2
+    2300032: Bin_comb_LOD1 3
+    2300034: Bin_comb_LOD2
+    2300036: Bin_comb_LOD2 1
+    2300038: Bin_comb_LOD2 2
+    2300040: Bin_comb_LOD2 3
+    2300042: Bin_LOD0
+    2300044: Bin_LOD0 1
+    2300046: Bin_LOD0 2
+    2300048: Bin_LOD0 3
+    2300050: Bin_LOD0 4
+    2300052: Bin_LOD0 5
+    2300054: Bin_LOD1
+    2300056: Bin_LOD1 1
+    2300058: Bin_LOD1 2
+    2300060: Bin_LOD1 3
+    2300062: Bin_LOD1 4
+    2300064: Bin_LOD1 5
+    2300066: Bin_LOD2
+    2300068: Bin_LOD2 1
+    2300070: Bin_LOD2 2
+    2300072: Bin_LOD2 3
+    2300074: Bin_LOD2 4
+    2300076: Bin_LOD2 5
+    2300078: Cap_A_LOD0
+    2300080: Cap_A_LOD1
+    2300082: Cap_A_LOD2
+    2300084: Cap_B_LOD0
+    2300086: Cap_B_LOD1
+    2300088: Cap_B_LOD2
+    2300090: Cap_C_LOD0
+    2300092: Cap_C_LOD1
+    2300094: Cap_C_LOD2
+    2300096: Cap_LOD0
+    2300098: Cap_LOD0 1
+    2300100: Cap_LOD1
+    2300102: Cap_LOD1 1
+    2300104: Cap_LOD2
+    2300106: Cap_LOD2 1
+    2300108: Frame_LOD0
+    2300110: Frame_LOD1
+    2300112: Frame_LOD2
+    2300114: Garbage_bin_C_handler_LOD0
+    2300116: Garbage_bin_C_handler_LOD0 1
+    2300118: Garbage_bin_C_handler_LOD0 2
+    2300120: Garbage_bin_C_handler_LOD0 3
+    2300122: Head_LOD0
+    2300124: Head_LOD1
+    2300126: Head_LOD2
+    2300128: Twistcap_LOD0
+    2300130: Twistcap_LOD0 1
+    2300132: Twistcap_LOD1
+    2300134: Twistcap_LOD1 1
+    3300000: Bin_comb_Cap_A_LOD0
+    3300002: Bin_comb_Cap_A_LOD1
+    3300004: Bin_comb_Cap_A_LOD2
+    3300006: Bin_comb_Cap_B_LOD0
+    3300008: Bin_comb_Cap_B_LOD1
+    3300010: Bin_comb_Cap_B_LOD2
+    3300012: Bin_comb_Cap_C_LOD0
+    3300014: Bin_comb_Cap_C_LOD1
+    3300016: Bin_comb_Cap_C_LOD2
+    3300018: Bin_comb_LOD0
+    3300020: Bin_comb_LOD0 1
+    3300022: Bin_comb_LOD0 2
+    3300024: Bin_comb_LOD0 3
+    3300026: Bin_comb_LOD1
+    3300028: Bin_comb_LOD1 1
+    3300030: Bin_comb_LOD1 2
+    3300032: Bin_comb_LOD1 3
+    3300034: Bin_comb_LOD2
+    3300036: Bin_comb_LOD2 1
+    3300038: Bin_comb_LOD2 2
+    3300040: Bin_comb_LOD2 3
+    3300042: Bin_LOD0
+    3300044: Bin_LOD0 1
+    3300046: Bin_LOD0 2
+    3300048: Bin_LOD0 3
+    3300050: Bin_LOD0 4
+    3300052: Bin_LOD0 5
+    3300054: Bin_LOD1
+    3300056: Bin_LOD1 1
+    3300058: Bin_LOD1 2
+    3300060: Bin_LOD1 3
+    3300062: Bin_LOD1 4
+    3300064: Bin_LOD1 5
+    3300066: Bin_LOD2
+    3300068: Bin_LOD2 1
+    3300070: Bin_LOD2 2
+    3300072: Bin_LOD2 3
+    3300074: Bin_LOD2 4
+    3300076: Bin_LOD2 5
+    3300078: Cap_A_LOD0
+    3300080: Cap_A_LOD1
+    3300082: Cap_A_LOD2
+    3300084: Cap_B_LOD0
+    3300086: Cap_B_LOD1
+    3300088: Cap_B_LOD2
+    3300090: Cap_C_LOD0
+    3300092: Cap_C_LOD1
+    3300094: Cap_C_LOD2
+    3300096: Cap_LOD0
+    3300098: Cap_LOD0 1
+    3300100: Cap_LOD1
+    3300102: Cap_LOD1 1
+    3300104: Cap_LOD2
+    3300106: Cap_LOD2 1
+    3300108: Frame_LOD0
+    3300110: Frame_LOD1
+    3300112: Frame_LOD2
+    3300114: Garbage_bin_C_handler_LOD0
+    3300116: Garbage_bin_C_handler_LOD0 1
+    3300118: Garbage_bin_C_handler_LOD0 2
+    3300120: Garbage_bin_C_handler_LOD0 3
+    3300122: Head_LOD0
+    3300124: Head_LOD1
+    3300126: Head_LOD2
+    3300128: Twistcap_LOD0
+    3300130: Twistcap_LOD0 1
+    3300132: Twistcap_LOD1
+    3300134: Twistcap_LOD1 1
+    4300000: Bin_LOD0
+    4300002: Bin_LOD1
+    4300004: Bin_LOD2
+    4300006: Cap_LOD0
+    4300008: Cap_LOD1
+    4300010: Cap_LOD2
+    4300012: Bin_LOD0
+    4300014: Bin_LOD1
+    4300016: Bin_LOD2
+    4300018: Cap_LOD0
+    4300020: Cap_LOD2
+    4300022: Cap_LOD1
+    4300024: Bin_LOD0
+    4300026: Garbage_bin_C_handler_LOD0
+    4300028: Bin_LOD1
+    4300030: Bin_LOD2
+    4300032: Cap_B_LOD0
+    4300034: Cap_B_LOD1
+    4300036: Cap_B_LOD2
+    4300038: Cap_C_LOD0
+    4300040: Cap_C_LOD1
+    4300042: Cap_C_LOD2
+    4300044: Cap_A_LOD0
+    4300046: Cap_A_LOD1
+    4300048: Cap_A_LOD2
+    4300050: Frame_LOD0
+    4300052: Frame_LOD1
+    4300054: Frame_LOD2
+    4300056: Bin_LOD0
+    4300058: Bin_LOD1
+    4300060: Bin_LOD2
+    4300062: Bin_LOD0
+    4300064: Bin_LOD1
+    4300066: Head_LOD0
+    4300068: Twistcap_LOD0
+    4300070: Twistcap_LOD1
+    4300072: Head_LOD1
+    4300074: Head_LOD2
+    4300076: Bin_LOD2
+    4300078: Bin_LOD0
+    4300080: Twistcap_LOD0
+    4300082: Twistcap_LOD1
+    4300084: Bin_LOD2
+    4300086: Bin_LOD1
+    4300088: Bin_comb_LOD0
+    4300090: Bin_comb_LOD1
+    4300092: Bin_comb_LOD2
+    4300094: Bin_comb_LOD0
+    4300096: Bin_comb_LOD2
+    4300098: Bin_comb_LOD1
+    4300100: Bin_comb_LOD0
+    4300102: Bin_comb_LOD1
+    4300104: Bin_comb_LOD2
+    4300106: Bin_comb_LOD0
+    4300108: Bin_comb_LOD1
+    4300110: Bin_comb_LOD2
+    4300112: Bin_comb_Cap_A_LOD0
+    4300114: Garbage_bin_C_handler_LOD0
+    4300116: Bin_comb_Cap_A_LOD1
+    4300118: Bin_comb_Cap_A_LOD2
+    4300120: Bin_comb_Cap_B_LOD0
+    4300122: Bin_comb_Cap_B_LOD2
+    4300124: Garbage_bin_C_handler_LOD0
+    4300126: Bin_comb_Cap_B_LOD1
+    4300128: Bin_comb_Cap_C_LOD0
+    4300130: Bin_comb_Cap_C_LOD2
+    4300132: Garbage_bin_C_handler_LOD0
+    4300134: Bin_comb_Cap_C_LOD1
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garbage_bin_A
+    second: {fileID: 2100000, guid: e39333d8290de9e4f9de9d78f0440f73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garbage_bin_B
+    second: {fileID: 2100000, guid: 015cc1ac71c08f4419e5d09c9b4beabe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garbage_bin_C
+    second: {fileID: 2100000, guid: cf1e06a7e2131414d8e01781aba1baf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garbage_bin_D
+    second: {fileID: 2100000, guid: 2558146198d0e874bb74be3f91b82338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garbage_bin_E
+    second: {fileID: 2100000, guid: 75ac0dec596f66343a7d408304ea28d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garbage_bin_F
+    second: {fileID: 2100000, guid: 1cf651717d842c943a627fc41009c996, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

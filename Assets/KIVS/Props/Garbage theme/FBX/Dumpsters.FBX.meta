@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: 7a828e2d7bb9a7c4c83062f574113bd2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: _cap_pivot
+    100002: Cap_LOD0
+    100004: Cap_LOD0 1
+    100006: Cap_LOD1
+    100008: Cap_LOD1 1
+    100010: Cap_LOD2
+    100012: Cap_LOD2 1
+    100014: Container_comb_LOD0
+    100016: Container_comb_LOD0 1
+    100018: Container_comb_LOD1
+    100020: Container_comb_LOD1 1
+    100022: Container_comb_LOD2
+    100024: Container_comb_LOD2 1
+    100026: Container_LOD0
+    100028: Container_LOD0 1
+    100030: Container_LOD1
+    100032: Container_LOD1 1
+    100034: Container_LOD2
+    100036: Container_LOD2 1
+    100038: Dumpster_A
+    100040: Dumpster_A_comb
+    100042: Dumpster_B
+    100044: Dumpster_B_comb
+    100046: //RootNode
+    100048: Wheel_01_LOD0
+    100050: Wheel_01_LOD0 1
+    100052: Wheel_01_LOD1
+    100054: Wheel_01_LOD1 1
+    100056: Wheel_01_LOD2
+    100058: Wheel_01_LOD2 1
+    100060: Wheel_02_LOD0
+    100062: Wheel_02_LOD0 1
+    100064: Wheel_02_LOD1
+    100066: Wheel_02_LOD1 1
+    100068: Wheel_02_LOD2
+    100070: Wheel_02_LOD2 1
+    100072: Wheel_03_LOD0
+    100074: Wheel_03_LOD0 1
+    100076: Wheel_03_LOD1
+    100078: Wheel_03_LOD1 1
+    100080: Wheel_03_LOD2
+    100082: Wheel_03_LOD2 1
+    100084: Wheel_04_LOD0
+    100086: Wheel_04_LOD0 1
+    100088: Wheel_04_LOD1
+    100090: Wheel_04_LOD1 1
+    100092: Wheel_04_LOD2
+    100094: Wheel_04_LOD2 1
+    100096: Wheel_br01_LOD0
+    100098: Wheel_br01_LOD0 1
+    100100: Wheel_br01_LOD1
+    100102: Wheel_br01_LOD1 1
+    100104: Wheel_br02_LOD0
+    100106: Wheel_br02_LOD0 1
+    100108: Wheel_br02_LOD1
+    100110: Wheel_br02_LOD1 1
+    100112: Wheel_br03_LOD0
+    100114: Wheel_br03_LOD0 1
+    100116: Wheel_br03_LOD1
+    100118: Wheel_br03_LOD1 1
+    100120: Wheel_br04_LOD0
+    100122: Wheel_br04_LOD0 1
+    100124: Wheel_br04_LOD1
+    100126: Wheel_br04_LOD1 1
+    100128: Wheels_LOD0
+    100130: Wheels_LOD0 1
+    100132: Wheels_LOD1
+    100134: Wheels_LOD1 1
+    100136: Wheels_LOD2
+    100138: Wheels_LOD2 1
+    400000: _cap_pivot
+    400002: Cap_LOD0
+    400004: Cap_LOD0 1
+    400006: Cap_LOD1
+    400008: Cap_LOD1 1
+    400010: Cap_LOD2
+    400012: Cap_LOD2 1
+    400014: Container_comb_LOD0
+    400016: Container_comb_LOD0 1
+    400018: Container_comb_LOD1
+    400020: Container_comb_LOD1 1
+    400022: Container_comb_LOD2
+    400024: Container_comb_LOD2 1
+    400026: Container_LOD0
+    400028: Container_LOD0 1
+    400030: Container_LOD1
+    400032: Container_LOD1 1
+    400034: Container_LOD2
+    400036: Container_LOD2 1
+    400038: Dumpster_A
+    400040: Dumpster_A_comb
+    400042: Dumpster_B
+    400044: Dumpster_B_comb
+    400046: //RootNode
+    400048: Wheel_01_LOD0
+    400050: Wheel_01_LOD0 1
+    400052: Wheel_01_LOD1
+    400054: Wheel_01_LOD1 1
+    400056: Wheel_01_LOD2
+    400058: Wheel_01_LOD2 1
+    400060: Wheel_02_LOD0
+    400062: Wheel_02_LOD0 1
+    400064: Wheel_02_LOD1
+    400066: Wheel_02_LOD1 1
+    400068: Wheel_02_LOD2
+    400070: Wheel_02_LOD2 1
+    400072: Wheel_03_LOD0
+    400074: Wheel_03_LOD0 1
+    400076: Wheel_03_LOD1
+    400078: Wheel_03_LOD1 1
+    400080: Wheel_03_LOD2
+    400082: Wheel_03_LOD2 1
+    400084: Wheel_04_LOD0
+    400086: Wheel_04_LOD0 1
+    400088: Wheel_04_LOD1
+    400090: Wheel_04_LOD1 1
+    400092: Wheel_04_LOD2
+    400094: Wheel_04_LOD2 1
+    400096: Wheel_br01_LOD0
+    400098: Wheel_br01_LOD0 1
+    400100: Wheel_br01_LOD1
+    400102: Wheel_br01_LOD1 1
+    400104: Wheel_br02_LOD0
+    400106: Wheel_br02_LOD0 1
+    400108: Wheel_br02_LOD1
+    400110: Wheel_br02_LOD1 1
+    400112: Wheel_br03_LOD0
+    400114: Wheel_br03_LOD0 1
+    400116: Wheel_br03_LOD1
+    400118: Wheel_br03_LOD1 1
+    400120: Wheel_br04_LOD0
+    400122: Wheel_br04_LOD0 1
+    400124: Wheel_br04_LOD1
+    400126: Wheel_br04_LOD1 1
+    400128: Wheels_LOD0
+    400130: Wheels_LOD0 1
+    400132: Wheels_LOD1
+    400134: Wheels_LOD1 1
+    400136: Wheels_LOD2
+    400138: Wheels_LOD2 1
+    2100000: Dumpster_A
+    2100002: Dumpster_B
+    2300000: Cap_LOD0
+    2300002: Cap_LOD0 1
+    2300004: Cap_LOD1
+    2300006: Cap_LOD1 1
+    2300008: Cap_LOD2
+    2300010: Cap_LOD2 1
+    2300012: Container_comb_LOD0
+    2300014: Container_comb_LOD0 1
+    2300016: Container_comb_LOD1
+    2300018: Container_comb_LOD1 1
+    2300020: Container_comb_LOD2
+    2300022: Container_comb_LOD2 1
+    2300024: Container_LOD0
+    2300026: Container_LOD0 1
+    2300028: Container_LOD1
+    2300030: Container_LOD1 1
+    2300032: Container_LOD2
+    2300034: Container_LOD2 1
+    2300036: Wheel_01_LOD0
+    2300038: Wheel_01_LOD0 1
+    2300040: Wheel_01_LOD1
+    2300042: Wheel_01_LOD1 1
+    2300044: Wheel_01_LOD2
+    2300046: Wheel_01_LOD2 1
+    2300048: Wheel_02_LOD0
+    2300050: Wheel_02_LOD0 1
+    2300052: Wheel_02_LOD1
+    2300054: Wheel_02_LOD1 1
+    2300056: Wheel_02_LOD2
+    2300058: Wheel_02_LOD2 1
+    2300060: Wheel_03_LOD0
+    2300062: Wheel_03_LOD0 1
+    2300064: Wheel_03_LOD1
+    2300066: Wheel_03_LOD1 1
+    2300068: Wheel_03_LOD2
+    2300070: Wheel_03_LOD2 1
+    2300072: Wheel_04_LOD0
+    2300074: Wheel_04_LOD0 1
+    2300076: Wheel_04_LOD1
+    2300078: Wheel_04_LOD1 1
+    2300080: Wheel_04_LOD2
+    2300082: Wheel_04_LOD2 1
+    2300084: Wheel_br01_LOD0
+    2300086: Wheel_br01_LOD0 1
+    2300088: Wheel_br01_LOD1
+    2300090: Wheel_br01_LOD1 1
+    2300092: Wheel_br02_LOD0
+    2300094: Wheel_br02_LOD0 1
+    2300096: Wheel_br02_LOD1
+    2300098: Wheel_br02_LOD1 1
+    2300100: Wheel_br03_LOD0
+    2300102: Wheel_br03_LOD0 1
+    2300104: Wheel_br03_LOD1
+    2300106: Wheel_br03_LOD1 1
+    2300108: Wheel_br04_LOD0
+    2300110: Wheel_br04_LOD0 1
+    2300112: Wheel_br04_LOD1
+    2300114: Wheel_br04_LOD1 1
+    2300116: Wheels_LOD0
+    2300118: Wheels_LOD0 1
+    2300120: Wheels_LOD1
+    2300122: Wheels_LOD1 1
+    2300124: Wheels_LOD2
+    2300126: Wheels_LOD2 1
+    3300000: Cap_LOD0
+    3300002: Cap_LOD0 1
+    3300004: Cap_LOD1
+    3300006: Cap_LOD1 1
+    3300008: Cap_LOD2
+    3300010: Cap_LOD2 1
+    3300012: Container_comb_LOD0
+    3300014: Container_comb_LOD0 1
+    3300016: Container_comb_LOD1
+    3300018: Container_comb_LOD1 1
+    3300020: Container_comb_LOD2
+    3300022: Container_comb_LOD2 1
+    3300024: Container_LOD0
+    3300026: Container_LOD0 1
+    3300028: Container_LOD1
+    3300030: Container_LOD1 1
+    3300032: Container_LOD2
+    3300034: Container_LOD2 1
+    3300036: Wheel_01_LOD0
+    3300038: Wheel_01_LOD0 1
+    3300040: Wheel_01_LOD1
+    3300042: Wheel_01_LOD1 1
+    3300044: Wheel_01_LOD2
+    3300046: Wheel_01_LOD2 1
+    3300048: Wheel_02_LOD0
+    3300050: Wheel_02_LOD0 1
+    3300052: Wheel_02_LOD1
+    3300054: Wheel_02_LOD1 1
+    3300056: Wheel_02_LOD2
+    3300058: Wheel_02_LOD2 1
+    3300060: Wheel_03_LOD0
+    3300062: Wheel_03_LOD0 1
+    3300064: Wheel_03_LOD1
+    3300066: Wheel_03_LOD1 1
+    3300068: Wheel_03_LOD2
+    3300070: Wheel_03_LOD2 1
+    3300072: Wheel_04_LOD0
+    3300074: Wheel_04_LOD0 1
+    3300076: Wheel_04_LOD1
+    3300078: Wheel_04_LOD1 1
+    3300080: Wheel_04_LOD2
+    3300082: Wheel_04_LOD2 1
+    3300084: Wheel_br01_LOD0
+    3300086: Wheel_br01_LOD0 1
+    3300088: Wheel_br01_LOD1
+    3300090: Wheel_br01_LOD1 1
+    3300092: Wheel_br02_LOD0
+    3300094: Wheel_br02_LOD0 1
+    3300096: Wheel_br02_LOD1
+    3300098: Wheel_br02_LOD1 1
+    3300100: Wheel_br03_LOD0
+    3300102: Wheel_br03_LOD0 1
+    3300104: Wheel_br03_LOD1
+    3300106: Wheel_br03_LOD1 1
+    3300108: Wheel_br04_LOD0
+    3300110: Wheel_br04_LOD0 1
+    3300112: Wheel_br04_LOD1
+    3300114: Wheel_br04_LOD1 1
+    3300116: Wheels_LOD0
+    3300118: Wheels_LOD0 1
+    3300120: Wheels_LOD1
+    3300122: Wheels_LOD1 1
+    3300124: Wheels_LOD2
+    3300126: Wheels_LOD2 1
+    4300000: Container_LOD0
+    4300002: Container_LOD1
+    4300004: Container_LOD2
+    4300006: Cap_LOD0
+    4300008: Cap_LOD1
+    4300010: Cap_LOD2
+    4300012: Wheel_br01_LOD0
+    4300014: Wheel_01_LOD0
+    4300016: Wheel_01_LOD1
+    4300018: Wheel_01_LOD2
+    4300020: Wheel_br01_LOD1
+    4300022: Wheel_br02_LOD0
+    4300024: Wheel_02_LOD0
+    4300026: Wheel_02_LOD1
+    4300028: Wheel_02_LOD2
+    4300030: Wheel_br02_LOD1
+    4300032: Wheel_br03_LOD0
+    4300034: Wheel_03_LOD0
+    4300036: Wheel_03_LOD1
+    4300038: Wheel_03_LOD2
+    4300040: Wheel_br03_LOD1
+    4300042: Wheel_br04_LOD0
+    4300044: Wheel_04_LOD0
+    4300046: Wheel_04_LOD1
+    4300048: Wheel_04_LOD2
+    4300050: Wheel_br04_LOD1
+    4300052: Container_LOD0
+    4300054: Container_LOD1
+    4300056: Container_LOD2
+    4300058: Wheels_LOD0
+    4300060: Wheels_LOD1
+    4300062: Wheels_LOD2
+    4300064: Cap_LOD0
+    4300066: Cap_LOD2
+    4300068: Cap_LOD1
+    4300070: Wheels_LOD0
+    4300072: Wheels_LOD1
+    4300074: Wheels_LOD2
+    4300076: Container_comb_LOD0
+    4300078: Container_comb_LOD2
+    4300080: Container_comb_LOD1
+    4300082: Wheel_br04_LOD0
+    4300084: Wheel_br04_LOD1
+    4300086: Wheel_04_LOD0
+    4300088: Wheel_04_LOD1
+    4300090: Wheel_04_LOD2
+    4300092: Wheel_br02_LOD0
+    4300094: Wheel_02_LOD0
+    4300096: Wheel_02_LOD1
+    4300098: Wheel_02_LOD2
+    4300100: Wheel_br02_LOD1
+    4300102: Container_comb_LOD0
+    4300104: Container_comb_LOD1
+    4300106: Container_comb_LOD2
+    4300108: Wheel_br01_LOD0
+    4300110: Wheel_01_LOD0
+    4300112: Wheel_01_LOD2
+    4300114: Wheel_01_LOD1
+    4300116: Wheel_br01_LOD1
+    4300118: Wheel_br03_LOD0
+    4300120: Wheel_03_LOD0
+    4300122: Wheel_03_LOD1
+    4300124: Wheel_03_LOD2
+    4300126: Wheel_br03_LOD1
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dumpster_A
+    second: {fileID: 2100000, guid: 96e87c95134a9da4f907a5a9c1dc4d87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dumpster_B
+    second: {fileID: 2100000, guid: 626225f2b8aea3c4680be3a88bd30e0e, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
