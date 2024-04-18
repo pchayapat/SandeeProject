@@ -15,7 +15,7 @@ D:/P_Project/Unity/SandeeProject/SandeeProject/SandeeProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56201
+64594
 Successfully changed project path to: D:/P_Project/Unity/SandeeProject/SandeeProject/SandeeProject
 D:/P_Project/Unity/SandeeProject/SandeeProject/SandeeProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/P_Project/Unity/SandeeProject/SandeeProject/SandeeProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13992] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 1489466908 [EditorId] 1489466908 [Version] 1048832 [Id] WindowsEditor(7,pchayapat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13380] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 2211349501 [EditorId] 2211349501 [Version] 1048832 [Id] WindowsEditor(7,pchayapat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13992] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 1489466908 [EditorId] 1489466908 [Version] 1048832 [Id] WindowsEditor(7,pchayapat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13380] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 2211349501 [EditorId] 2211349501 [Version] 1048832 [Id] WindowsEditor(7,pchayapat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008422 seconds.
-- Loaded All Assemblies, in  0.466 seconds
+Registered in 0.007414 seconds.
+- Loaded All Assemblies, in  0.474 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.347 seconds
-Domain Reload Profiling: 810ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.379 seconds
+Domain Reload Profiling: 851ms
+	BeginReloadAssembly (112ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (186ms)
-		LoadAssemblies (138ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (163ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (188ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (347ms)
+	FinalizeReload (379ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (276ms)
+		SetupLoadedEditorAssemblies (298ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (180ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.046 seconds
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.075 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -127,49 +127,49 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.872 seconds
-Domain Reload Profiling: 1917ms
+- Finished resetting the current domain, in  0.912 seconds
+Domain Reload Profiling: 1985ms
 	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
+		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (781ms)
-		LoadAssemblies (380ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (794ms)
+		LoadAssemblies (352ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (472ms)
-			TypeCache.Refresh (433ms)
-				TypeCache.ScanAssembly (410ms)
+		AnalyzeDomain (515ms)
+			TypeCache.Refresh (476ms)
+				TypeCache.ScanAssembly (448ms)
 			ScanForSourceGeneratedMonoScriptInfo (30ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (873ms)
+	FinalizeReload (912ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (636ms)
+		SetupLoadedEditorAssemblies (675ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (510ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (547ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4182 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 59 unused Assets / (3.0 MB). Loaded Objects now: 4668.
-Memory consumption went from 190.0 MB to 187.1 MB.
-Total: 8.304000 ms (FindLiveObjects: 0.442200 ms CreateObjectMapping: 0.508900 ms MarkObjects: 4.511600 ms  DeleteObjects: 2.840200 ms)
+Memory consumption went from 189.7 MB to 186.8 MB.
+Total: 7.525400 ms (FindLiveObjects: 0.371600 ms CreateObjectMapping: 1.230400 ms MarkObjects: 4.159400 ms  DeleteObjects: 1.761900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -189,56 +189,56 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.814 seconds
-Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.958 seconds
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.111 seconds
-Domain Reload Profiling: 1924ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  1.237 seconds
+Domain Reload Profiling: 2192ms
+	BeginReloadAssembly (174ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (544ms)
-		LoadAssemblies (281ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (660ms)
+		LoadAssemblies (327ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (344ms)
-			TypeCache.Refresh (334ms)
-				TypeCache.ScanAssembly (319ms)
+		AnalyzeDomain (415ms)
+			TypeCache.Refresh (405ms)
+				TypeCache.ScanAssembly (392ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (1111ms)
+	FinalizeReload (1237ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (415ms)
+		SetupLoadedEditorAssemblies (473ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4126 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 33 unused Assets / (2.9 MB). Loaded Objects now: 4683.
-Memory consumption went from 176.4 MB to 173.4 MB.
-Total: 4.721700 ms (FindLiveObjects: 0.414700 ms CreateObjectMapping: 0.356200 ms MarkObjects: 2.589600 ms  DeleteObjects: 1.360500 ms)
+Memory consumption went from 176.1 MB to 173.1 MB.
+Total: 12.176400 ms (FindLiveObjects: 0.689300 ms CreateObjectMapping: 0.596600 ms MarkObjects: 8.566400 ms  DeleteObjects: 2.322600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -256,609 +256,221 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 265246.600696 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (4).prefab
-  artifactKey: Guid(ed8c224a76a266f439c5d4cf11a6068c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (4).prefab using Guid(ed8c224a76a266f439c5d4cf11a6068c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7589cade869fa58ba647e4604e40b934') in 0.038502 seconds
+  Time since last request: 274330.986765 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Textures/Palm trees normal.tga
+  artifactKey: Guid(c39404aee79f11845af04f3fefa867a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Textures/Palm trees normal.tga using Guid(c39404aee79f11845af04f3fefa867a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0c3678ac1aaa31ad70eba6f4207219') in 0.131230 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (31).prefab
-  artifactKey: Guid(fc69edb47f3f1df4bae74757b040d8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (31).prefab using Guid(fc69edb47f3f1df4bae74757b040d8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e315eb711b9e2efa48044e289fa5ad8') in 0.002389 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Prefabs/PalmTreesDualBent.prefab
+  artifactKey: Guid(63b0e81b5e9a08140b0ebc0859046c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SUIMONO - WATER SYSTEM 2/_DEMO/TERRAIN/Objects/Palm Trees/Prefabs/PalmTreesDualBent.prefab using Guid(63b0e81b5e9a08140b0ebc0859046c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02432f4d3ba5271281b3d40f676a8d43') in 0.060417 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 1.394206 seconds.
+  path: Assets/ThirdParty/Map1/SkythianCat/Sunny_Village_LITE/Materials/Streetlight.mat
+  artifactKey: Guid(82be73c4770348b47adda08ab9147a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/SkythianCat/Sunny_Village_LITE/Materials/Streetlight.mat using Guid(82be73c4770348b47adda08ab9147a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8cb39980e79e90bfcffd957ef8dca1') in 0.060886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.133568 seconds.
+  path: Assets/ThirdParty/Map1/SkythianCat/Sunny_Village_LITE/Textures/Streetlight_holder_d.png
+  artifactKey: Guid(9c8cb781cc06d034fab638efe3e678cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/SkythianCat/Sunny_Village_LITE/Textures/Streetlight_holder_d.png using Guid(9c8cb781cc06d034fab638efe3e678cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3871becf08342a0cf2c983b4b6bc8326') in 0.014064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ThirdParty/Map1/SkythianCat/Sunny_Village_LITE/Prefabs/Streetlight_item.prefab
+  artifactKey: Guid(aea3f591cb77f8c4e920996706520c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/SkythianCat/Sunny_Village_LITE/Prefabs/Streetlight_item.prefab using Guid(aea3f591cb77f8c4e920996706520c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ef2c9d45782869d1e1724e6790dcd8') in 0.011626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.353322 seconds.
+  path: Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_02B.prefab
+  artifactKey: Guid(4263131f07f9a6d4f98c94d1e7cc8480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_02B.prefab using Guid(4263131f07f9a6d4f98c94d1e7cc8480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df2b72baf5beea1bff00fea95615a1d') in 0.029478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.059119 seconds.
+  path: Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_03B.prefab
+  artifactKey: Guid(33edfe7fba6ccc44f84e25db86e3683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_03B.prefab using Guid(33edfe7fba6ccc44f84e25db86e3683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79acb29330a196404428c9f4869aa00') in 0.022545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.867389 seconds.
+  path: Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_04B.prefab
+  artifactKey: Guid(aa4ac79dfb51f7a4a91dd16dd38da01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_04B.prefab using Guid(aa4ac79dfb51f7a4a91dd16dd38da01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b64abc35c43fe837b22bde38fb8405') in 0.039660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.081762 seconds.
+  path: Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_06A.prefab
+  artifactKey: Guid(883ac116f60085447a755e33075dbc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Palm_Tree_06A.prefab using Guid(883ac116f60085447a755e33075dbc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82b852d69b7c6070025d0198bf561cb') in 0.030332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.549247 seconds.
+  path: Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Tree_01A.prefab
+  artifactKey: Guid(44f3d2eacfc1eaf41b287c25868c5035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Tree_01A.prefab using Guid(44f3d2eacfc1eaf41b287c25868c5035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47266bec721ba3b36cc4fabb02863c7') in 0.022616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.059347 seconds.
+  path: Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Tree_02A.prefab
+  artifactKey: Guid(e1e68c84b5ded8f42ba2a5b5c490154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Tree_02A.prefab using Guid(e1e68c84b5ded8f42ba2a5b5c490154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cd9e5c0119014a6805ee02b317dc51') in 0.016471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (7).prefab
-  artifactKey: Guid(73aa6f762a32d464f99efb87e2b3c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (7).prefab using Guid(73aa6f762a32d464f99efb87e2b3c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed6030c3e195cf6bb771074cce26f79') in 0.001819 seconds
+  path: Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Tree_03A.prefab
+  artifactKey: Guid(1d78334c1a5161449be53e138f0a773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Toon Adventure Island/Prefabs/Vegetation/Trees/TAI_Tree_03A.prefab using Guid(1d78334c1a5161449be53e138f0a773b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecc6154d5c9a7bdf7ad25acf4e3eb6f') in 0.025417 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (18).prefab
-  artifactKey: Guid(a4f74d2fe3c0997419f0aac2aabd519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (18).prefab using Guid(a4f74d2fe3c0997419f0aac2aabd519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b28fff2be08b8dd4578a44bcd9c6ebb') in 0.002666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (14).prefab
-  artifactKey: Guid(bfef1687ea4d8de4686f5d0f66a935d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (14).prefab using Guid(bfef1687ea4d8de4686f5d0f66a935d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b6f67641ea4f4e16de596344809790') in 0.001875 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (9).prefab
-  artifactKey: Guid(b8ea0823013a4fd4a9cd13aefc69f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (9).prefab using Guid(b8ea0823013a4fd4a9cd13aefc69f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e65e2e42c03bb613396cf5b7282f950') in 0.002492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (29).prefab
-  artifactKey: Guid(87151761ccd13ef42bdcafc5346c1629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (29).prefab using Guid(87151761ccd13ef42bdcafc5346c1629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9eb1bddf6aa5dfeedc11bd9bdb10c47') in 0.002061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (6).prefab
-  artifactKey: Guid(a89fb0272a0fa4f4d9cb3cfc08bf584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (6).prefab using Guid(a89fb0272a0fa4f4d9cb3cfc08bf584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619804b93aa0f2ccd50f26651ca9fa86') in 0.002174 seconds
+  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Tree_03A.fbx
+  artifactKey: Guid(36a85883665bc3f4cabe4515928d7fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Tree_03A.fbx using Guid(36a85883665bc3f4cabe4515928d7fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f310f41d47b420c2849bcf198d9d63') in 0.095383 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 34
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (5).prefab
-  artifactKey: Guid(24713f1f89320994d8f4ea49c68a4742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (5).prefab using Guid(24713f1f89320994d8f4ea49c68a4742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006538ac3bbe8367ff61e4ee5c63d420') in 0.001609 seconds
+  Time since last request: 0.434939 seconds.
+  path: Assets/ThirdParty/Map1/NaturePack/Resources/Objects/tree1.FBX
+  artifactKey: Guid(f57a41b12f154f24dabee634fa780534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/NaturePack/Resources/Objects/tree1.FBX using Guid(f57a41b12f154f24dabee634fa780534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01bf072e9191c38da4b18dfc8e4c481') in 0.024914 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (10).prefab
-  artifactKey: Guid(0d4824e9509323b4f8e642a8b1495f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (10).prefab using Guid(0d4824e9509323b4f8e642a8b1495f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a563f5c936c2af26f47c009084ed3345') in 0.002268 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/ThirdParty/Map1/NaturePack/Resources/Objects/tree3.FBX
+  artifactKey: Guid(86331ca12c53da7408246b70dbca334f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/NaturePack/Resources/Objects/tree3.FBX using Guid(86331ca12c53da7408246b70dbca334f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18d77ed3fe963c72cc68d795c392487') in 0.019586 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (12).prefab
-  artifactKey: Guid(1af151066e446ff419917bca4c2b3bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (12).prefab using Guid(1af151066e446ff419917bca4c2b3bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b632789a5c7705957b845a28c6aff205') in 0.001633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (34).prefab
-  artifactKey: Guid(5c4f66da541ccf54eae36b794543a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (34).prefab using Guid(5c4f66da541ccf54eae36b794543a3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a3e5a7fa071d2d0f27b607b9dd3720') in 0.002099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Waypoints/GameObject (35).prefab
-  artifactKey: Guid(e30415b264bce6c42873c7c9c0cadece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waypoints/GameObject (35).prefab using Guid(e30415b264bce6c42873c7c9c0cadece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fbfd018caec060af7114ce81ef4226') in 0.001558 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 103.745565 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Frame Modules/Gable_R.fbx
-  artifactKey: Guid(b1cdaba281725354d9ee259c8f29ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Frame Modules/Gable_R.fbx using Guid(b1cdaba281725354d9ee259c8f29ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23e04714951e7402f7d2fbdfff4320a') in 0.113836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.791 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.064 seconds
-Domain Reload Profiling: 1854ms
-	BeginReloadAssembly (180ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (522ms)
-		LoadAssemblies (289ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (312ms)
-			TypeCache.Refresh (305ms)
-				TypeCache.ScanAssembly (292ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1064ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (398ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4125 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (2.9 MB). Loaded Objects now: 4710.
-Memory consumption went from 180.8 MB to 177.9 MB.
-Total: 5.198300 ms (FindLiveObjects: 0.352400 ms CreateObjectMapping: 0.339100 ms MarkObjects: 3.289600 ms  DeleteObjects: 1.216000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1820.230131 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Wood_Barrel_Damaged_02A.fbx
-  artifactKey: Guid(ebb5171a16d16bc44a4e9ee68042c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Wood_Barrel_Damaged_02A.fbx using Guid(ebb5171a16d16bc44a4e9ee68042c90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf60a50b903a1e29ed12867cfd08cce1') in 0.241511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Vine_07B.fbx
-  artifactKey: Guid(ea521b1eab5c8274b828860e9a18417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Vine_07B.fbx using Guid(ea521b1eab5c8274b828860e9a18417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1198ffb306acb2a912f888d5a3f2dd') in 0.088984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_03B.fbx
-  artifactKey: Guid(f1e713c55c4b2b84cad576ff37eadf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_03B.fbx using Guid(f1e713c55c4b2b84cad576ff37eadf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9cbe99322be3cb113ecbe4ae4e667b') in 0.049509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_06B.fbx
-  artifactKey: Guid(cb0bd6b0848a32e449e2d91e9b7d0bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_06B.fbx using Guid(cb0bd6b0848a32e449e2d91e9b7d0bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bd0321a7876d3640831d5ceda10656') in 0.066208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Vine_09B.fbx
-  artifactKey: Guid(b8514e73b07ca7b46aa1b9404a063165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Vine_09B.fbx using Guid(b8514e73b07ca7b46aa1b9404a063165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778033fc6ebc4dcd443a7d4d2349e441') in 0.051507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Whale_Skeleton_Head_Bottom_01A.fbx
-  artifactKey: Guid(07b4701e2b65b9c4783de5a4da40c324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Whale_Skeleton_Head_Bottom_01A.fbx using Guid(07b4701e2b65b9c4783de5a4da40c324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6132067d6e1be3869b7cfd47456af82') in 0.045736 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Medium_02B.fbx
-  artifactKey: Guid(b4773753596ca464b9c4cc07128824db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Medium_02B.fbx using Guid(b4773753596ca464b9c4cc07128824db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69c353db04383f5bebc88336379e692') in 0.060094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_04A.fbx
-  artifactKey: Guid(93d333cd0ce10c546a1e574f82998066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_04A.fbx using Guid(93d333cd0ce10c546a1e574f82998066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b3aa162e81581ba981c9d7df0b2a96') in 0.062937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Medium_03B.fbx
-  artifactKey: Guid(1878f8846bfe89440bd25fa1d37ee64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Medium_03B.fbx using Guid(1878f8846bfe89440bd25fa1d37ee64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac555d872e3d6566656d531af5c04eb3') in 0.069807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Medium_04A.fbx
-  artifactKey: Guid(a940730410caa984a9ca4b7225b2c3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Medium_04A.fbx using Guid(a940730410caa984a9ca4b7225b2c3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e831e87b3937c5640133d0328e85aa') in 0.061202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Medium_04B.fbx
-  artifactKey: Guid(f6e7324565bb7e84c9e907dc1a69b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Medium_04B.fbx using Guid(f6e7324565bb7e84c9e907dc1a69b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec983bae12ad80fe701f0e7ab2e7bafb') in 0.062047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_05B.fbx
-  artifactKey: Guid(7cf8f5d0525d9b74bb91a11c0e6b1d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_05B.fbx using Guid(7cf8f5d0525d9b74bb91a11c0e6b1d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74f5edec6f770203a68e772920487c5') in 0.060665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Wood_Barrel_Open_01A.fbx
-  artifactKey: Guid(a224e7d0749b2764eaef088d4ec780c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Wood_Barrel_Open_01A.fbx using Guid(a224e7d0749b2764eaef088d4ec780c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eb8b2e05dd21fea4d7c453b775c312') in 0.073753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_06A.fbx
-  artifactKey: Guid(0198eb2f05ba0554ba89d68f7378c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_06A.fbx using Guid(0198eb2f05ba0554ba89d68f7378c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f8738724e5fc259fbf12e1df4fe64b') in 0.060299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 35
-========================================================================
-Received Import Request.
-  Time since last request: 0.068444 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Plant_21A.fbx
-  artifactKey: Guid(3aa885f1c26ef154fb604904101e557d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Plant_21A.fbx using Guid(3aa885f1c26ef154fb604904101e557d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17978b0889c1c78393c5e8dd95141c46') in 0.054047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_01A.fbx
-  artifactKey: Guid(05c2c57efb8d7d8488d0dd12d745c4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Rock_Large_01A.fbx using Guid(05c2c57efb8d7d8488d0dd12d745c4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec33f89b7c9311b89b10d2cf0f2a08a') in 0.053653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Pavement_Stones_Dust_01A.fbx
-  artifactKey: Guid(3f1160617044e5748af2624b2db697a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Pavement_Stones_Dust_01A.fbx using Guid(3f1160617044e5748af2624b2db697a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e67e145800629737a77745ceb27534') in 0.028522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Pier_Bollard_02A.fbx
-  artifactKey: Guid(0c24c7d46020a28498f8b64aacb2c72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Pier_Bollard_02A.fbx using Guid(0c24c7d46020a28498f8b64aacb2c72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faffbe3926198c3814af5633c66f18b') in 0.054843 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Pier_Bollard_01A.fbx
-  artifactKey: Guid(359fc18c875c64749bf700406cbca646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Pier_Bollard_01A.fbx using Guid(359fc18c875c64749bf700406cbca646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd4dc0ccda13d1ab0db79ec3496e693') in 0.042351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Pirate_Gun_01B.fbx
-  artifactKey: Guid(a947d432d2da6e24b9a2338eb7c04b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Pirate_Gun_01B.fbx using Guid(a947d432d2da6e24b9a2338eb7c04b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef4e462d186e6985f045159278c62b8') in 0.020740 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/ThirdParty/Map1/NaturePack/Prefabs/Tree/Tree5.prefab
+  artifactKey: Guid(b3890298f7a27e34e8ff2ccde6962de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/NaturePack/Prefabs/Tree/Tree5.prefab using Guid(b3890298f7a27e34e8ff2ccde6962de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dd5f568fecde2ccf496a638d29b5ca') in 0.017890 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/Toon Adventure Island/Models/TAI_Raft_01A.fbx
-  artifactKey: Guid(aef3e5023b6ce1243a7a45ba70077d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Toon Adventure Island/Models/TAI_Raft_01A.fbx using Guid(aef3e5023b6ce1243a7a45ba70077d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686b58569505ae16386360cae4b3009a') in 0.037873 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/ThirdParty/Map1/NaturePack/Prefabs/Tree/Tree6.prefab
+  artifactKey: Guid(ea0ba6d02132e4a42a6988dd5848d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/NaturePack/Prefabs/Tree/Tree6.prefab using Guid(ea0ba6d02132e4a42a6988dd5848d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e939cc697ff280004629b51f13be292') in 0.015132 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.100708 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Decor/Ivy_5_L.fbx
-  artifactKey: Guid(1b6b736073bd96148a94f5d1fb748fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Decor/Ivy_5_L.fbx using Guid(1b6b736073bd96148a94f5d1fb748fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a01281f867cb157abb6a24cbd69fc7') in 0.026476 seconds
+  Time since last request: 0.026812 seconds.
+  path: Assets/ThirdParty/Map1/NaturePack/Prefabs/Tree/Tree8.prefab
+  artifactKey: Guid(16199a237c367ba4b951ed5cc8f246ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/NaturePack/Prefabs/Tree/Tree8.prefab using Guid(16199a237c367ba4b951ed5cc8f246ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61766288f1f03094a193bd65d317565e') in 0.015648 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Ladder.fbx
-  artifactKey: Guid(c293626afba2fa94eb507266993dd983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Ladder.fbx using Guid(c293626afba2fa94eb507266993dd983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8f9270c486ff6d0a1eaff02960bbed') in 0.022060 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Fence_7.fbx
-  artifactKey: Guid(9ace25cf33eb39644a74c4e3dcc2a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Fence_7.fbx using Guid(9ace25cf33eb39644a74c4e3dcc2a239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212ff84a9ea12e82b4741235e281f77c') in 0.027734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Fence_6.fbx
-  artifactKey: Guid(e338c350789ea8e42a2ce97260e85fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Fence_6.fbx using Guid(e338c350789ea8e42a2ce97260e85fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eba0bad451d6f4e7723f4457dea67e') in 0.033226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Props/Log_1.fbx
-  artifactKey: Guid(9dedf601a4bdc8948853718788d10eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Props/Log_1.fbx using Guid(9dedf601a4bdc8948853718788d10eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf213cd97f96694a6343d4df4c57c18') in 0.027901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Lantern_1.fbx
-  artifactKey: Guid(e32cd5c44d3f60f45a9b434f36a79d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Lantern_1.fbx using Guid(e32cd5c44d3f60f45a9b434f36a79d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7788655a16dac728950bc7c8e2adbddf') in 0.023835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Indoor Modules/Floor_2.fbx
-  artifactKey: Guid(76e695492a734da40b361e431b27b9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Indoor Modules/Floor_2.fbx using Guid(76e695492a734da40b361e431b27b9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c63ffec7a0089ce9cc48862742e473') in 0.013682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Lamp_3.fbx
-  artifactKey: Guid(e82da68c60ee69047a1eb828aed6ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Lamp_3.fbx using Guid(e82da68c60ee69047a1eb828aed6ea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792af59ce60b8d7ee0a9c7fb3e9bd1fe') in 0.037320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Fence_4.fbx
-  artifactKey: Guid(cfc072e06ebcddd40bd118ad51bf4022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Fence_4.fbx using Guid(cfc072e06ebcddd40bd118ad51bf4022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa024559b3db347b70ca91cbe1f15f7') in 0.026829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Nature/Broadleaf_2.fbx
-  artifactKey: Guid(80ce03838725da24e97e4a36694768ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Nature/Broadleaf_2.fbx using Guid(80ce03838725da24e97e4a36694768ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64e85ed6eea4d4ffbbe7a7a0dffca4f') in 0.040754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Lamp_2.fbx
-  artifactKey: Guid(133fcd02685a9e845ab47044e03a4772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Lamp_2.fbx using Guid(133fcd02685a9e845ab47044e03a4772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d09c2396b3bbf164cb3aaf62c42065e') in 0.035884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Nature/Flowers.fbx
-  artifactKey: Guid(6a6e766ee38d9144ba84cdd3aaa5b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Nature/Flowers.fbx using Guid(6a6e766ee38d9144ba84cdd3aaa5b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17201b1ece168cf7ecb768ddd64e2c5c') in 0.026204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Decor/Ivy_5_R.fbx
-  artifactKey: Guid(8c690ae8d205369449d4c34b00ac5440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Decor/Ivy_5_R.fbx using Guid(8c690ae8d205369449d4c34b00ac5440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73728d910c6ffc28e52edf9d74076159') in 0.028873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Decor/Flovers_1.fbx
-  artifactKey: Guid(bad69d7743673704589ff1c11712d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Building Modules/Decor/Flovers_1.fbx using Guid(bad69d7743673704589ff1c11712d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1942bab63610a1d9e5c6a451bdcc54') in 0.034762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 3.757987 seconds.
-  path: Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Boiler.fbx
-  artifactKey: Guid(e0b39158ad1b4d140af55ff1e9a9af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Map1/Suntail Village/Models/Environment/Boiler.fbx using Guid(e0b39158ad1b4d140af55ff1e9a9af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616541f72d630575590456e0512563cc') in 0.118726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  4.406 seconds
-Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 10.653 seconds
-Domain Reload Profiling: 15058ms
-	BeginReloadAssembly (157ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (4165ms)
-		LoadAssemblies (3488ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (743ms)
-			TypeCache.Refresh (733ms)
-				TypeCache.ScanAssembly (664ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (10653ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (426ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (312ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4125 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (2.9 MB). Loaded Objects now: 4725.
-Memory consumption went from 181.3 MB to 178.4 MB.
-Total: 5.448100 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.331800 ms MarkObjects: 3.144800 ms  DeleteObjects: 1.622100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 51.257673 seconds.
-  path: Assets/ThirdParty/UniGLTF/Editor/UniGLTF/Gizmo/Models/Bone.fbx
-  artifactKey: Guid(61a60de4cfa7b124184947ca4a57ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/UniGLTF/Editor/UniGLTF/Gizmo/Models/Bone.fbx using Guid(61a60de4cfa7b124184947ca4a57ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38afd2f379fc9ff263937ad310574dd') in 0.126749 seconds
+  path: Assets/ThirdParty/Map1/NaturePack/Resources/Objects/tree9.FBX
+  artifactKey: Guid(69d6cf6b59d2620478085250b322b5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/NaturePack/Resources/Objects/tree9.FBX using Guid(69d6cf6b59d2620478085250b322b5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9f8200899177c2cc46e6d65e93e6a8') in 0.023656 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ThirdParty/Map1/NaturePack/Prefabs/Tree/Tree12.prefab
+  artifactKey: Guid(da76416d443880846b8c108b5782a142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Map1/NaturePack/Prefabs/Tree/Tree12.prefab using Guid(da76416d443880846b8c108b5782a142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629b78a5c07dbc308773d55e62920345') in 0.016252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\P_Project\Unity\SandeeProject\SandeeProject\SandeeProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.738 seconds
-Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.019 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.766 seconds
-Domain Reload Profiling: 1503ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  1.955 seconds
+Domain Reload Profiling: 2973ms
+	BeginReloadAssembly (177ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (37ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (43ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (517ms)
-		LoadAssemblies (252ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (755ms)
+		LoadAssemblies (310ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (323ms)
-			TypeCache.Refresh (312ms)
-				TypeCache.ScanAssembly (298ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (766ms)
+		AnalyzeDomain (510ms)
+			TypeCache.Refresh (499ms)
+				TypeCache.ScanAssembly (479ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1956ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (389ms)
+		SetupLoadedEditorAssemblies (421ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'VRM10/Universal Render Pipeline/MToon10': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4125 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (2.9 MB). Loaded Objects now: 4740.
-Memory consumption went from 181.3 MB to 178.4 MB.
-Total: 4.625500 ms (FindLiveObjects: 0.455600 ms CreateObjectMapping: 0.459300 ms MarkObjects: 2.401500 ms  DeleteObjects: 1.308200 ms)
+Unloading 4086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (2.9 MB). Loaded Objects now: 4712.
+Memory consumption went from 179.2 MB to 176.2 MB.
+Total: 4.947100 ms (FindLiveObjects: 0.342600 ms CreateObjectMapping: 0.358200 ms MarkObjects: 2.869200 ms  DeleteObjects: 1.375900 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+Prepare: number of updated asset objects reloaded= 26
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
