@@ -40,7 +40,6 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_module_editor.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\AtmosPad\Entity\IAtmosPadDraggable.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Wizard\MassiveCloudsAtmosWizardCommon.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\AtmosPad\GUI\AtmosPadController.cs" />
@@ -48,7 +47,6 @@
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\AtmosPad\AtmosProfileEditor.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Wizard\PackageVersionInfo.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Wizard\UnityVersionInfo.cs" />
-     <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_object_editor.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\MaterialExporter\MassiveCloudsMaterialExporterEditor.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Wizard\EnvironmentDetector.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Library\OverrideFloatPropertyDrawer.cs" />
@@ -62,10 +60,8 @@
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Library\MassiveCloudsEditorTextures.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\PhysicsCloud\MassiveCloudsEditorHeightFog.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Wizard\UniversalRP\MassiveCloudsAtmosWizardScriptableRendererFeatureSetup.cs" />
-     <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_objectfx_editor.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\PhysicsCloud\UnityQualityPropertyDrawer.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Wizard\HDRP\MassiveCloudsAtmosWizardHDRPCustomPassSetup.cs" />
-     <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_modulefx_editor.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Wizard\MassiveCloudsAtmosWizardCameraEffectSetup.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\AtmosPad\AtmosPadEditor.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\MassiveCloudsStylizedEditor.cs" />
@@ -78,7 +74,6 @@
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Library\MassiveCloudsEditorTab.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\PhysicsCloud\MassiveCloudsPhysicsCloudProfileEditor.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\MassiveCloudsProfileEditor.cs" />
-     <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\EDITOR\suimono_shorelineobject_editor.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\PhysicsCloud\MassiveCloudsEditorLighting.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\AtmosPad\GUI\AtmosPadUI.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Editor\Library\MassiveCloudsEditorGUI.cs" />
