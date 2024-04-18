@@ -14,6 +14,7 @@ TagManager:
   - YellowBin
   - Item
   - Door
+  - Water
   layers:
   - Default
   - TransparentFX

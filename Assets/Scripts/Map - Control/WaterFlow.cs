@@ -14,7 +14,7 @@ public class WaterFlow : MonoBehaviour
     void FixedUpdate ()
     {
         Vector3 pos = rb.position;
-        rb.position += Vector3.back * speed * Time.fixedDeltaTime;
+        rb.position += Vector3.left * speed * Time.fixedDeltaTime;
         rb.MovePosition(pos);
     }
 }

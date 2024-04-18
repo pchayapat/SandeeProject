@@ -51,7 +51,9 @@
      <Compile Include="Assets\Scripts\Player - Movement &amp; Camera\PlayerCam.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryItem.cs" />
      <Compile Include="Assets\ThirdParty\Toon Adventure Island\Scripts\Source\GlobalFlock.cs" />
+     <Compile Include="Assets\Scripts\Map - Control\WaveManager.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\Light\Moon.cs" />
+     <Compile Include="Assets\Scripts\Map - Control\WaterSpawn.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Physics\FogParameter.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\StandardRP\MassiveCloudsCameraEffect.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\FlippingRenderTextures.cs" />
@@ -86,6 +88,7 @@
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\Light\Sun.cs" />
      <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_EffectTrail.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Utility\SetDepthPassToCamera.cs" />
+     <Compile Include="Assets\Scripts\Map - Control\WaveWaypoint.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventorySlot.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Polyart\PolyartStudio\Scripts\Flythrough.cs" />
      <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\SuimonoObject.cs" />
@@ -134,6 +137,7 @@
      <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_animBoat.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Suntail Village\Scripts\SuntailStartDemo.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Suntail Village\Scripts\PhysicsObject.cs" />
+     <Compile Include="Assets\Scripts\Map - Control\WaterDetector.cs" />
      <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\utility_EventTrigger.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\MassiveCloudsStylizedCloud.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Utility\MassiveCloudsMaterialExporter.cs" />
@@ -160,6 +164,7 @@
      <Compile Include="Assets\Scripts\MInigame\HeartManager.cs" />
      <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_buoyancy.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\CollectItem.cs" />
+     <Compile Include="Assets\Scripts\Map - Control\WaterFlowbyPlane.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\GUI\MassiveCloudsGroupSelect.cs" />
      <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\_DEMO\SCRIPTS\sui_demo_LightHandler.cs" />
      <Compile Include="Assets\SUIMONO - WATER SYSTEM 2\SCRIPTS\fx_soundModule.cs" />
