@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Suntail{
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
@@ -24,12 +25,14 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
     private Animator animator;
     private CharacterController characterController;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
         rb.freezeRotation = true;
         readyToJump = true;
+
     }
 
     private void Update()
@@ -133,4 +136,7 @@ public class PlayerMovement : MonoBehaviour
     {
         readyToJump = true;
     }
+    
 }
+}
+
