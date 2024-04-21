@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 922fbbf95e81aed45833188593774e5d
+timeCreated: 1462518107
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anode Lever
+    100002: Anode Lever Screw
+    100004: Cathode Lever
+    100006: Cathode Lever Screw
+    100008: Centre Thread
+    100010: Column E
+    100012: Column N
+    100014: Column S
+    100016: Column W
+    100018: Roof
+    100020: //RootNode
+    100022: Voltaic Pile
+    400000: Anode Lever
+    400002: Anode Lever Screw
+    400004: Cathode Lever
+    400006: Cathode Lever Screw
+    400008: Centre Thread
+    400010: Column E
+    400012: Column N
+    400014: Column S
+    400016: Column W
+    400018: Roof
+    400020: //RootNode
+    400022: Voltaic Pile
+    2300000: Anode Lever
+    2300002: Anode Lever Screw
+    2300004: Cathode Lever
+    2300006: Cathode Lever Screw
+    2300008: Centre Thread
+    2300010: Column E
+    2300012: Column N
+    2300014: Column S
+    2300016: Column W
+    2300018: Roof
+    2300020: //RootNode
+    2300022: Voltaic Pile
+    3300000: Anode Lever
+    3300002: Anode Lever Screw
+    3300004: Cathode Lever
+    3300006: Cathode Lever Screw
+    3300008: Centre Thread
+    3300010: Column E
+    3300012: Column N
+    3300014: Column S
+    3300016: Column W
+    3300018: Roof
+    3300020: //RootNode
+    3300022: Voltaic Pile
+    4300000: Volta's Battery
+    4300002: Voltaic Pile
+    4300004: Roof
+    4300006: Centre Thread
+    4300008: Column E
+    4300010: Anode Lever Screw
+    4300012: Anode Lever
+    4300014: Cathode Lever Screw
+    4300016: Cathode Lever
+    4300018: Column W
+    4300020: Column S
+    4300022: Column N
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 213
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

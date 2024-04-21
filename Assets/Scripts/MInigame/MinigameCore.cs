@@ -10,6 +10,25 @@ public class MinigameCore : MonoBehaviour
     public bool mission1IsPlaying;
     public bool mission2IsPlaying;
     public bool mission3IsPlaying;
+    [Header("UI Score")]
+    public GameObject score;
+    public GameObject star;
+    [Header("Mission Window")]
+    public GameObject pass1;
+    public GameObject pass2;
+    public GameObject pass3;
+    public GameObject lock2;
+    public GameObject lock3;
+    public GameObject warning1;
+    public GameObject warning2;
+    public GameObject warning3;
+    [Header("Mission Trigger")]
+    public GameObject Mission1EnterTrigger;
+    public GameObject Mission2EnterTrigger;
+    public GameObject Mission3EnterTrigger;
+    [Header("Mission Wall")]
+    public GameObject Mission1Wall;
+    public GameObject Mission2Wall;
     
     //In game mode
     public static int scoreCount;
@@ -27,23 +46,33 @@ public class MinigameCore : MonoBehaviour
     public void CheckStateNow(){
         if(mission1 == false && mission2 == false && mission3 == false &&
         mission1IsPlaying == false && mission2IsPlaying == false && mission3IsPlaying == false){
-            Debug.Log("Go to Mission 1");
+            //Debug.Log("Go to Mission 1");
         }
         if(mission1 == false && mission2 == false && mission3 == false &&
         mission1IsPlaying == true && mission2IsPlaying == false && mission3IsPlaying == false){
             Debug.Log("Playing Mission 1");
+            score.gameObject.SetActive(true);
+            star.gameObject.SetActive(true);
         }
         if(mission1 == true && mission2 == false && mission3 == false &&
         mission1IsPlaying == false && mission2IsPlaying == false && mission3IsPlaying == false){
             Debug.Log("Mission 1 was successed, Go to Mission 2");
+            pass1.SetActive(true);
+            warning1.SetActive(false);
+            warning2.SetActive(true);
+            lock2.SetActive(false);
         }
         if(mission1 == true && mission2 == false && mission3 == false &&
         mission1IsPlaying == false && mission2IsPlaying == true && mission3IsPlaying == false){
-            Debug.Log("Playing Mission 2");
+            Debug.Log("Playing Mission 2"); 
         }
         if(mission1 == true && mission2 == true && mission3 == false &&
         mission1IsPlaying == false && mission2IsPlaying == false && mission3IsPlaying == false){
             Debug.Log("Mission 2 was successed, Go to Mission 3");
+            pass2.SetActive(true);
+            warning2.SetActive(false);
+            warning3.SetActive(true);
+            lock3.SetActive(false);
         }
         if(mission1 == true && mission2 == true && mission3 == false &&
         mission1IsPlaying == false && mission2IsPlaying == false && mission3IsPlaying == true){
@@ -53,5 +82,32 @@ public class MinigameCore : MonoBehaviour
         mission1IsPlaying == false && mission2IsPlaying == false && mission3IsPlaying == false){
             Debug.Log("Mission 3 was successed");
         }
+    }
+
+    public void Mission1Start()
+    {
+        Debug.Log("Mission 1 start");
+        Mission1EnterTrigger.gameObject.SetActive(false);
+        mission1IsPlaying = true;
+    }
+    public void Mission2Start()
+    {
+        Debug.Log("Mission 2 start");
+        Mission2EnterTrigger.gameObject.SetActive(false);
+        mission2IsPlaying = true;
+    }
+    public void Mission3Start()
+    {
+        Debug.Log("Mission 3 start");
+        Mission3EnterTrigger.gameObject.SetActive(false);
+        mission3IsPlaying = true;
+    }
+    public void DestroyWallMission1()
+    {
+        Mission1Wall.SetActive(false);
+    }
+    public void DestroyWallMission2()
+    {
+        Mission2Wall.SetActive(false);
     }
 }

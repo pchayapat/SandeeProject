@@ -162,7 +162,7 @@ public class InventoryManager : MonoBehaviour
             {
                 Debug.Log("False");
                 Missing.MissingCount -= 1;
-                //ScoreManager.scoreCount -= 1;
+                ScoreManager.scoreCount -= 1;
             }
         }
     }
@@ -198,39 +198,6 @@ public class InventoryManager : MonoBehaviour
                                 break;
                             case "yellowcube":
                                 InstantiateAndDestroy(itemsPrefabs[3], handPosition);
-                                break;
-                            case "burger":
-                                InstantiateAndDestroy(itemsPrefabs[4], handPosition);
-                                break;
-                            case "donut":
-                                InstantiateAndDestroy(itemsPrefabs[5], handPosition);
-                                break;
-                            case "fish":
-                                InstantiateAndDestroy(itemsPrefabs[6], handPosition);
-                                break;
-                            case "bottle":
-                                InstantiateAndDestroy(itemsPrefabs[7], handPosition);
-                                break;
-                            case "barrelgreen":
-                                InstantiateAndDestroy(itemsPrefabs[8], handPosition);
-                                break;
-                            case "barrelgrey":
-                                InstantiateAndDestroy(itemsPrefabs[9], handPosition);
-                                break;
-                            case "barrelorange":
-                                InstantiateAndDestroy(itemsPrefabs[10], handPosition);
-                                break;
-                            case "cokecan":
-                                InstantiateAndDestroy(itemsPrefabs[11], handPosition);
-                                break;
-                            case "paper1":
-                                InstantiateAndDestroy(itemsPrefabs[12], handPosition);
-                                break;
-                            case "paper2":
-                                InstantiateAndDestroy(itemsPrefabs[13], handPosition);
-                                break;
-                            case "paper3":
-                                InstantiateAndDestroy(itemsPrefabs[14], handPosition);
                                 break;
                         }
                     }

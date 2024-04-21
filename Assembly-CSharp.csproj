@@ -40,8 +40,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Minigame\healthSystem.cs" />
      <Compile Include="Assets\Scripts\Player - Movement &amp; Camera\MoveCamera.cs" />
-     <Compile Include="Assets\Scripts\MInigame\MinigameCore.cs" />
+     <Compile Include="Assets\Scripts\Minigame\ScoreManager.cs" />
      <Compile Include="Assets\ThirdParty\Toon Adventure Island\Scripts\Source\Flock.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\OpenInventory.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\RenderTextureDesc.cs" />
@@ -59,16 +60,13 @@
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\RuntimeControlDemo\AtmosPadVariationSliderControl.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Profile\Parameter\ShapeParameter.cs" />
+     <Compile Include="Assets\Patcharapon\GUI\GUI-BlueSky\Scripts\PanelBlueSky.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Physics\SkyParameter.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Suntail Village\Scripts\AudioZoneControl.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\MassiveCloudsTargetFrameRate.cs" />
-     <Compile Include="Assets\Scripts\MInigame\Missing.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\PPSv2\MassiveCloudsRendererParameter.cs" />
-     <Compile Include="Assets\Patcharapon\Layer Lab\GUI-BlueSky\Scripts\PanelBlueSky.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\MassiveCloudsSunLightSource.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\MassiveCloudsMaterial.cs" />
-     <Compile Include="Assets\Patcharapon\Layer Lab\GUI-BlueSky\ResourcesData\SampleParticle\Extentions\UIParticle\UIParticleSystem.cs" />
-     <Compile Include="Assets\Scripts\MInigame\healthSystem.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Utility\CommandBufferUtility.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\Light\MassiveCloudsLight.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\PPSv2\MassiveCloudsBeforeStackEffectRenderer.cs" />
@@ -77,14 +75,12 @@
      <Compile Include="Assets\Scripts\Pet - NavMeshAI\followAI.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\GUI\DeviceInformationText.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\PaperPlaneDemo\FollowCamera.cs" />
-     <Compile Include="Assets\Scripts\MInigame\ScoreManager.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\GUI\MassiveCloudsEnvironmentController.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\Light\Sun.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Utility\SetDepthPassToCamera.cs" />
      <Compile Include="Assets\Scripts\Map - Control\WaveWaypoint.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventorySlot.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Polyart\PolyartStudio\Scripts\Flythrough.cs" />
-     <Compile Include="Assets\Patcharapon\Layer Lab\GUI-BlueSky\Scripts\PanelControlBlueSky.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Physics\MixedHdriParameter.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Physics\SkyPass.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\GUI\MassiveCloudsProfileChanger.cs" />
@@ -98,9 +94,11 @@
      <Compile Include="Assets\Scripts\Player - Pick items\PickUpController.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\MassiveCloudsPassContext.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\IMassiveCloudsPass.cs" />
+     <Compile Include="Assets\Scripts\Minigame\MinigameCore.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\PPSv2\AbstractMassiveCloudsEffectSettings.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryManager.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Suntail Village\Scripts\PlayerInteractions.cs" />
+     <Compile Include="Assets\Scripts\Minigame\TimeLevel.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Environment\AtmosProfile.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Physics\AtmosphereParameter.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Polyart\PolyartStudio\Scripts\SmoothMouseLook.cs" />
@@ -109,6 +107,7 @@
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\Light\MassiveCloudsAmbient.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Profile\MassiveCloudsPhysicsCloudProfile.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\RuntimeControlDemo\AtmosPadTimeSliderControl.cs" />
+     <Compile Include="Assets\Scripts\Minigame\HeartManager.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Physics\MassiveCloudsPhysicsCloudPass.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Stylized\MassiveCloudsFogPass.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Environment\MassiveCloudsEnvironment.cs" />
@@ -120,14 +119,17 @@
      <Compile Include="Assets\ThirdParty\Map1\Suntail Village\Scripts\PhysicsObject.cs" />
      <Compile Include="Assets\Scripts\Map - Control\WaterDetector.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\MassiveCloudsStylizedCloud.cs" />
+     <Compile Include="Assets\Patcharapon\GUI\GUI-BlueSky\Scripts\PanelControlBlueSky.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Utility\MassiveCloudsMaterialExporter.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\DestroyChildCollider.cs" />
+     <Compile Include="Assets\Patcharapon\GUI\GUI-BlueSky\ResourcesData\SampleParticle\Extentions\UIParticle\UIParticleSystem.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\DistanceComparer.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Physics\HdriParameter.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\MassiveCloudsCameraMove.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Profile\Parameter\AnimationParameter.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\MassiveCloudsScriptableScrollSample.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Stylized\MassiveCloudsShadowPass.cs" />
+     <Compile Include="Assets\Scripts\Minigame\Missing.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Physics\MassiveCloudsAtmospherePass.cs" />
      <Compile Include="Assets\Scripts\Player - MissionCheck\MissionCheck.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Profile\MassiveCloudsStylizedCloudProfile.cs" />
@@ -137,13 +139,11 @@
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\PaperPlaneDemo\AutoPilot.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Suntail Village\Scripts\Door.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Environment\EnvironmentKey.cs" />
-     <Compile Include="Assets\Scripts\MInigame\HeartManager.cs" />
      <Compile Include="Assets\Scripts\Player - Pick items\CollectItem.cs" />
      <Compile Include="Assets\Scripts\Map - Control\WaterFlowbyPlane.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\GUI\MassiveCloudsGroupSelect.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Profile\MassiveCloudsParameter.cs" />
      <Compile Include="Assets\Scripts\Player - Movement &amp; Camera\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\MInigame\TimeLevel.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\PPSv2\MassiveCloudsBeforeTransparentEffectSettings.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\PPSv2\MassiveCloudsBeforeStackEffectSettings.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\MassiveCloudsPipelineDependent.cs" />
@@ -185,7 +185,7 @@
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_urp.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_fragment.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_alpha.hlsl" />
-     <None Include="Assets\Patcharapon\Layer Lab\GUI-BlueSky\ResourcesData\SampleParticle\Extentions\UIParticle\hidden particle.shader" />
+     <None Include="Assets\Patcharapon\GUI\GUI-BlueSky\ResourcesData\SampleParticle\Extentions\UIParticle\hidden particle.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_input.hlsl" />
      <None Include="Assets\Patcharapon\Garbage Assests\ShaderGraphsMToonForURPVR-master\Assets\SimplestarGame\ShaderGraphsMToon\Includes\Outline.hlsl" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -215,6 +215,7 @@
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_render_pipeline.hlsl" />
      <None Include="Assets\ThirdParty\VRMShaders\GLTF\UniUnlit\Resources\UniGLTF\UniUnlit.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Patcharapon\Garbage Assests\Food Waste\Shaders\Simple.shader" />
      <None Include="Assets\ThirdParty\Map1\Suntail Village\Shaders\Suntail_Foliage.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_geometry_normal.hlsl" />
      <None Include="Assets\ThirdParty\SkySeries Freebie\Hdri setup.txt" />

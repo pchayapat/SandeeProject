@@ -7,6 +7,7 @@ public class CollectItem : MonoBehaviour
     // ระยะทางที่ Raycast จะตรวจจับ
     public float raycastDistance = 5f;
     public InventoryManager inventoryManager;
+    public MinigameCore minigameCore;
     public Item[] itemsToPickup;
     //public DemoScript demoScript;
     
@@ -19,7 +20,20 @@ public class CollectItem : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit, raycastDistance))
             {
-                // //bin
+                //Mission Trigger
+                if(hit.collider.CompareTag("Mission1"))
+                {
+                    minigameCore.Mission1Start();
+                }
+                if(hit.collider.CompareTag("Mission2"))
+                {
+                    minigameCore.Mission2Start();
+                }
+                if(hit.collider.CompareTag("Mission3"))
+                {
+                    minigameCore.Mission3Start();
+                }
+                //bin
                 if(hit.collider.CompareTag("GreenBin"))
                 {
                     Debug.Log("Hit " + hit.collider.name);

@@ -15,6 +15,9 @@ TagManager:
   - Item
   - Door
   - Water
+  - Mission1
+  - Mission2
+  - Mission3
   layers:
   - Default
   - TransparentFX
