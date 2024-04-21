@@ -110,6 +110,7 @@
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\RuntimeControlDemo\AtmosPadTimeSliderControl.cs" />
      <Compile Include="Assets\Scripts\Minigame\HeartManager.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Physics\MassiveCloudsPhysicsCloudPass.cs" />
+     <Compile Include="Assets\Scripts\Map - Control\WaterBinTrigger.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\Stylized\MassiveCloudsFogPass.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Environment\MassiveCloudsEnvironment.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\MassiveCloudsMixer.cs" />

@@ -367,6 +367,7 @@
 "Assets/Patcharapon/GUI/GUI-BlueSky/Scripts/PanelBlueSky.cs"
 "Assets/Patcharapon/GUI/GUI-BlueSky/Scripts/PanelControlBlueSky.cs"
 "Assets/Scripts/Items/Item.cs"
+"Assets/Scripts/Map - Control/WaterBinTrigger.cs"
 "Assets/Scripts/Map - Control/WaterDetector.cs"
 "Assets/Scripts/Map - Control/WaterFlow.cs"
 "Assets/Scripts/Map - Control/WaterFlowbyPlane.cs"
