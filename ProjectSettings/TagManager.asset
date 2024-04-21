@@ -18,6 +18,29 @@ TagManager:
   - Mission1
   - Mission2
   - Mission3
+  - Spray3
+  - Spray2
+  - Spray
+  - Batt
+  - Clean
+  - Clean2
+  - Banana
+  - Apple
+  - Hamburger
+  - Sandwich
+  - Fish
+  - Pizza
+  - Snack
+  - Cup
+  - Juice
+  - Milk
+  - Cereal
+  - Newspaper
+  - Bottle
+  - Can
+  - Can2
+  - Can3
+  - Egg
   layers:
   - Default
   - TransparentFX

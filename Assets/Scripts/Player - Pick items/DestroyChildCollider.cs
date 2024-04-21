@@ -9,10 +9,16 @@ public class DestroyChildCollider : MonoBehaviour
         {
             // Check if the child has a BoxCollider component
             BoxCollider boxCollider = child.GetComponent<BoxCollider>();
+            CapsuleCollider capsuleCollider = child.GetComponent<CapsuleCollider>();
             if (boxCollider != null)
             {
                 // Destroy the BoxCollider component
                 Destroy(boxCollider);
+            }
+            if (boxCollider == null  || capsuleCollider != null)
+            {
+                // Destroy the BoxCollider component
+                Destroy(capsuleCollider);
             }
         }
     }

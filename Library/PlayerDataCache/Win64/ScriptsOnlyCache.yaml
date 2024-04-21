@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - MoveCamera
     - OpenInventory
     - PlayerCam
+    - RangeChecker
     - ScoreManager
     - Suntail.AudioZoneControl
     - Suntail.Door
@@ -86,7 +87,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/MainGame.unity:
+    Assets/Patcharapon/Scenes/MainGameWithTrash.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -98,8 +99,6 @@ ScriptsOnlyBuild:
     - Class: 23
       Script: {instanceID: 0}
     - Class: 28
-      Script: {instanceID: 0}
-    - Class: 29
       Script: {instanceID: 0}
     - Class: 33
       Script: {instanceID: 0}
@@ -148,75 +147,77 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2516}
     - Class: 114
-      Script: {instanceID: 2670}
+      Script: {instanceID: 2660}
     - Class: 114
-      Script: {instanceID: 3050}
+      Script: {instanceID: 2672}
     - Class: 114
-      Script: {instanceID: 3158}
+      Script: {instanceID: 3052}
     - Class: 114
-      Script: {instanceID: 3182}
+      Script: {instanceID: 3160}
     - Class: 114
-      Script: {instanceID: 3298}
+      Script: {instanceID: 3184}
     - Class: 114
-      Script: {instanceID: 3430}
+      Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3432}
     - Class: 114
-      Script: {instanceID: 3908}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 4156}
+      Script: {instanceID: 3910}
     - Class: 114
-      Script: {instanceID: 4438}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 4980}
+      Script: {instanceID: 4440}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 4982}
     - Class: 114
-      Script: {instanceID: 5074}
+      Script: {instanceID: 4986}
     - Class: 114
-      Script: {instanceID: 5310}
+      Script: {instanceID: 5076}
     - Class: 114
-      Script: {instanceID: 5324}
+      Script: {instanceID: 5312}
     - Class: 114
-      Script: {instanceID: 6200}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 6530}
+      Script: {instanceID: 6202}
     - Class: 114
-      Script: {instanceID: 6538}
+      Script: {instanceID: 6532}
     - Class: 114
-      Script: {instanceID: 6656}
+      Script: {instanceID: 6540}
     - Class: 114
-      Script: {instanceID: 6826}
+      Script: {instanceID: 6658}
     - Class: 114
-      Script: {instanceID: 6936}
+      Script: {instanceID: 6828}
     - Class: 114
-      Script: {instanceID: 7084}
+      Script: {instanceID: 6938}
     - Class: 114
-      Script: {instanceID: 7290}
+      Script: {instanceID: 7086}
     - Class: 114
-      Script: {instanceID: 7356}
+      Script: {instanceID: 7292}
     - Class: 114
-      Script: {instanceID: 7602}
+      Script: {instanceID: 7358}
     - Class: 114
-      Script: {instanceID: 7652}
+      Script: {instanceID: 7604}
     - Class: 114
-      Script: {instanceID: 7736}
+      Script: {instanceID: 7654}
     - Class: 114
-      Script: {instanceID: 7946}
+      Script: {instanceID: 7738}
     - Class: 114
-      Script: {instanceID: 7952}
+      Script: {instanceID: 7948}
     - Class: 114
-      Script: {instanceID: 8868}
+      Script: {instanceID: 7954}
     - Class: 114
-      Script: {instanceID: 9362}
+      Script: {instanceID: 8870}
     - Class: 114
-      Script: {instanceID: 9400}
+      Script: {instanceID: 9364}
     - Class: 114
-      Script: {instanceID: 9506}
+      Script: {instanceID: 9402}
     - Class: 114
-      Script: {instanceID: 78708}
+      Script: {instanceID: 9508}
     - Class: 114
-      Script: {instanceID: 79052}
+      Script: {instanceID: 78982}
+    - Class: 114
+      Script: {instanceID: 79470}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -262,12 +263,6 @@ ScriptsOnlyBuild:
     - Class: 243
       Script: {instanceID: 0}
     - Class: 245
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    - Class: 363
-      Script: {instanceID: 0}
-    - Class: 850595691
       Script: {instanceID: 0}
     - Class: 1953259897
       Script: {instanceID: 0}
@@ -482,6 +477,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DeviceInformationText
+  - hash:
+      serializedVersion: 2
+      Hash: 3fa1d681e17280fcad7212c89b812d4c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RangeChecker
   - hash:
       serializedVersion: 2
       Hash: 6f67dd406ddfc18c9b3f8a90725c6266
@@ -1960,5 +1961,5 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
-  - Assets/Scenes/MainGame.unity
+  - Assets/Patcharapon/Scenes/MainGameWithTrash.unity
   playerPath: D:/P_Project/Sandee Build/Sandee Build 21-4/SandeeProject.exe

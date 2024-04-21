@@ -92,6 +92,191 @@ public class CollectItem : MonoBehaviour
                     inventoryManager.AddItem(itemsToPickup[3]);
                     inventoryManager.ItemUpdate();
                 }
+                if(hit.collider.CompareTag("Spray3"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[4]);
+                    inventoryManager.AddItem(itemsToPickup[4]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Spray2"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[5]);
+                    inventoryManager.AddItem(itemsToPickup[5]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Spray"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[6]);
+                    inventoryManager.AddItem(itemsToPickup[6]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Batt"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[7]);
+                    inventoryManager.AddItem(itemsToPickup[7]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Clean"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[8]);
+                    inventoryManager.AddItem(itemsToPickup[8]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Clean2"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[9]);
+                    inventoryManager.AddItem(itemsToPickup[9]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Banana"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[10]);
+                    inventoryManager.AddItem(itemsToPickup[10]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Apple"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[11]);
+                    inventoryManager.AddItem(itemsToPickup[11]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Hamburger"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[12]);
+                    inventoryManager.AddItem(itemsToPickup[12]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Sandwich"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[13]);
+                    inventoryManager.AddItem(itemsToPickup[13]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Fish"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[14]);
+                    inventoryManager.AddItem(itemsToPickup[14]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Pizza"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[15]);
+                    inventoryManager.AddItem(itemsToPickup[15]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Snack"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[16]);
+                    inventoryManager.AddItem(itemsToPickup[16]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Cup"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[17]);
+                    inventoryManager.AddItem(itemsToPickup[17]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Juice"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[18]);
+                    inventoryManager.AddItem(itemsToPickup[18]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Milk"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[19]);
+                    inventoryManager.AddItem(itemsToPickup[19]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Cereal"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[20]);
+                    inventoryManager.AddItem(itemsToPickup[20]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Newspaper"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[21]);
+                    inventoryManager.AddItem(itemsToPickup[21]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Bottle"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[22]);
+                    inventoryManager.AddItem(itemsToPickup[22]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Can"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[23]);
+                    inventoryManager.AddItem(itemsToPickup[23]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Can2"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[24]);
+                    inventoryManager.AddItem(itemsToPickup[24]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Can3"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[25]);
+                    inventoryManager.AddItem(itemsToPickup[25]);
+                    inventoryManager.ItemUpdate();
+                }
+                if(hit.collider.CompareTag("Egg"))
+                {
+                    Debug.Log("Hit " + hit.collider.name);
+                    Destroy(hit.collider.gameObject);
+                    Debug.Log(itemsToPickup[26]);
+                    inventoryManager.AddItem(itemsToPickup[26]);
+                    inventoryManager.ItemUpdate();
+                }
+
             }
         }
     }

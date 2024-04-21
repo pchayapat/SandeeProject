@@ -331,6 +331,7 @@
 "Assets/Scripts/Minigame/ScoreManager.cs"
 "Assets/Scripts/Minigame/TimeLevel.cs"
 "Assets/Scripts/Pet - NavMeshAI/followAI.cs"
+"Assets/Scripts/Pet - NavMeshAI/RangeChecker.cs"
 "Assets/Scripts/Player - Inventory/DemoScript.cs"
 "Assets/Scripts/Player - Inventory/InventoryItem.cs"
 "Assets/Scripts/Player - Inventory/InventoryManager.cs"
