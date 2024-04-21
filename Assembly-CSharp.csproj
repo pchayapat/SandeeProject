@@ -74,6 +74,7 @@
      <Compile Include="Assets\Scripts\Player - Inventory\DemoScript.cs" />
      <Compile Include="Assets\Scripts\Pet - NavMeshAI\followAI.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\GUI\DeviceInformationText.cs" />
+     <Compile Include="Assets\Scripts\Pet - NavMeshAI\RangeChecker.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\PaperPlaneDemo\FollowCamera.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\GUI\MassiveCloudsEnvironmentController.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\Light\Sun.cs" />
