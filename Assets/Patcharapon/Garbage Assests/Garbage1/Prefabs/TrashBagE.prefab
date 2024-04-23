@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4592946712180014579}
   m_Layer: 0
   m_Name: TrashBagE
-  m_TagString: Untagged
+  m_TagString: WaterBin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +32,7 @@ Transform:
   - {fileID: 2855745625132042685}
   - {fileID: 8119418984250468801}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!205 &4592946712180014579
 LODGroup:
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 2855745625133812639}
   m_Layer: 0
   m_Name: TrashBagE_LOD0
-  m_TagString: Untagged
+  m_TagString: WaterBin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 2437606221052148203}
   m_Layer: 0
   m_Name: TrashBagE_LOD1
-  m_TagString: Untagged
+  m_TagString: WaterBin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

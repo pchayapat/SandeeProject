@@ -43,6 +43,7 @@
      <Compile Include="Assets\Scripts\Minigame\healthSystem.cs" />
      <Compile Include="Assets\Scripts\Player - Movement &amp; Camera\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\Minigame\ScoreManager.cs" />
+     <Compile Include="Assets\Patcharapon\Scripts\MainMenu.cs" />
      <Compile Include="Assets\ThirdParty\Toon Adventure Island\Scripts\Source\Flock.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\OpenInventory.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\RenderTextureDesc.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\StandardRP\MassiveCloudsCameraEffect.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\FlippingRenderTextures.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
+     <Compile Include="Assets\Patcharapon\Scripts\SettingMenu.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\RuntimeControlDemo\AtmosPadVariationSliderControl.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Profile\Parameter\ShapeParameter.cs" />
      <Compile Include="Assets\Patcharapon\GUI\GUI-BlueSky\Scripts\PanelBlueSky.cs" />
@@ -74,11 +76,13 @@
      <Compile Include="Assets\Scripts\Player - Inventory\DemoScript.cs" />
      <Compile Include="Assets\Scripts\Pet - NavMeshAI\followAI.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\GUI\DeviceInformationText.cs" />
+     <Compile Include="Assets\Scripts\Minigame\RestartButton.cs" />
      <Compile Include="Assets\Scripts\Pet - NavMeshAI\RangeChecker.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\PaperPlaneDemo\FollowCamera.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\SampleScene\Script\GUI\MassiveCloudsEnvironmentController.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Library\Light\Sun.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Utility\SetDepthPassToCamera.cs" />
+     <Compile Include="Assets\Patcharapon\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Map - Control\WaveWaypoint.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventorySlot.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Polyart\PolyartStudio\Scripts\Flythrough.cs" />
@@ -97,6 +101,7 @@
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pass\IMassiveCloudsPass.cs" />
      <Compile Include="Assets\Scripts\Minigame\MinigameCore.cs" />
      <Compile Include="Assets\ThirdParty\Map1\MassiveCloudsAtmos\Script\Pipeline\PPSv2\AbstractMassiveCloudsEffectSettings.cs" />
+     <Compile Include="Assets\Scripts\Minigame\LastScore.cs" />
      <Compile Include="Assets\Scripts\Player - Inventory\InventoryManager.cs" />
      <Compile Include="Assets\ThirdParty\Map1\Suntail Village\Scripts\PlayerInteractions.cs" />
      <Compile Include="Assets\Scripts\Minigame\TimeLevel.cs" />

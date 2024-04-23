@@ -7,7 +7,9 @@ public class WaveWaypoint : MonoBehaviour
     public List<GameObject> waypoints;
     public float speed = 2;
     int index = 0;
-    public bool isLoop = true;
+    //public bool isLoop = true;
+    public Missing missing;
+    //public MinigameCore minigameCore;
     void Start()
     {
 
@@ -25,14 +27,24 @@ public class WaveWaypoint : MonoBehaviour
             {
                 index++;
             }
-            else
+            else if(index == waypoints.Count-1)
             {
-                if(isLoop)
-                {
-                    index = 0;
-                }
-                
+                //Debug.Log("Goal");
+                Missing.MissingCount -= 1;
+                Destroy(gameObject);
             }
+            // else
+            // {
+            //     if(isLoop)
+            //     {
+            //         index = 0;
+            //     }
+                
+            // }
+        }
+        if(MinigameCore.mission3IsPlaying == false)
+        {
+            Destroy(gameObject);
         }
     }
 }

@@ -8,11 +8,12 @@ public class TimeLevel : MonoBehaviour
     // Start is called before the first frame update
     public static float currentTime = 0f;
     //public static float startingTime = 60f;
-    public static float startingTime = 60f;
+    public static float startingTime = 300f;
     [SerializeField] Text countdownText;
     public MinigameCore minigameCore;
-    public GameObject Level1;
-    public GameObject Level2;
+    public GameObject gameOver;
+    
+    public GameObject Mission3Challenge;
     void Start()
     {
         currentTime = startingTime;
@@ -22,7 +23,7 @@ public class TimeLevel : MonoBehaviour
     void Update()
     {
         currentTime -= 1*Time.deltaTime;
-        countdownText.text = "Time : " + Mathf.Round(currentTime);
+        countdownText.text = "" + Mathf.Round(currentTime);
 
         if(currentTime <= 0)
         {
@@ -30,7 +31,13 @@ public class TimeLevel : MonoBehaviour
             if(ScoreManager.scoreCount < 20)
             {
                 //SceneManager.LoadScene("GameOver");
-                Debug.Log("GameOver");
+                gameOver.SetActive(true);
+                Mission3Challenge.SetActive(false);
+                //WaterfallSpawner.SetActive(false);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                MinigameCore.mission3IsPlaying = false;
+                Debug.Log("Time Out");
             }
         }
     }

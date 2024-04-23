@@ -19,6 +19,7 @@ public class WaterSpawn : MonoBehaviour
             yield return new WaitForSeconds(spawnInterval);
             int randomIndex = Random.Range(0, prefabsToSpawn.Count);
             Instantiate(prefabsToSpawn[randomIndex], transform.position, Quaternion.identity);
+            
         }
     }
 }

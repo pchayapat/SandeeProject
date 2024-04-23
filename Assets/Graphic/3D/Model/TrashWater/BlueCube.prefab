@@ -157,5 +157,5 @@ MonoBehaviour:
   - {fileID: 9088950064808496424, guid: 001324d879867c14cb3089d23a52dfa3, type: 3}
   - {fileID: 6509998510549841932, guid: 298c4ad8872c3744386431d6eeea873b, type: 3}
   - {fileID: 2483072544694440365, guid: 87bf956301d1eee439f960335533ce2f, type: 3}
-  speed: 6
+  speed: 3
   isLoop: 0

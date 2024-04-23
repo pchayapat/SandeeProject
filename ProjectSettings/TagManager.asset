@@ -41,6 +41,7 @@ TagManager:
   - Can2
   - Can3
   - Egg
+  - WaterBin
   layers:
   - Default
   - TransparentFX

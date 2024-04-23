@@ -9,19 +9,24 @@ public class MinigameCore : MonoBehaviour
     public bool mission3;
     public bool mission1IsPlaying;
     public bool mission2IsPlaying;
-    public bool mission3IsPlaying;
+    public static bool mission3IsPlaying;
     [Header("UI Score")]
     public GameObject score;
     public GameObject star;
-    [Header("Mission Window")]
+    [Header("Mission Window Mission 1")]
     public GameObject pass1;
-    public GameObject pass2;
-    public GameObject pass3;
-    public GameObject lock2;
-    public GameObject lock3;
     public GameObject warning1;
+    [Header("Mission Window Mission 2")]
+    public GameObject pass2;
+    public GameObject lock2;
     public GameObject warning2;
+    [Header("Mission Window Mission 3")]
+    public GameObject pass3;
+    public GameObject lock3;
     public GameObject warning3;
+    public GameObject Mission3Challenge;
+    public GameObject WaterfallSpawner;
+    public GameObject gameOver;
     [Header("Mission Trigger")]
     public GameObject Mission1EnterTrigger;
     public GameObject Mission2EnterTrigger;
@@ -101,6 +106,14 @@ public class MinigameCore : MonoBehaviour
         Debug.Log("Mission 3 start");
         Mission3EnterTrigger.gameObject.SetActive(false);
         mission3IsPlaying = true;
+        ScoreManager.scoreCount = 0;
+        Missing.MissingCount = 5;
+        TimeLevel.currentTime = 300;
+        Mission3Challenge.gameObject.SetActive(true);
+        WaterfallSpawner.gameObject.SetActive(true);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        gameOver.SetActive(false);
     }
     public void DestroyWallMission1()
     {

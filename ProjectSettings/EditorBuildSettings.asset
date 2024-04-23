@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Patcharapon/Scenes/LiveMenu.unity
+    guid: bdca325342d8dbc4d8e88bf942ae0afd
+  - enabled: 1
     path: Assets/Patcharapon/Scenes/MainGameWithTrash.unity
     guid: 80464c12afc6eeb46b006733e073b59e
   m_configObjects: {}
