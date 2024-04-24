@@ -180,6 +180,7 @@
      <None Include="Assets\ThirdParty\Toon Adventure Island\Shaders\TAI_CustomGrass.shader" />
      <None Include="Assets\ThirdParty\Map1\Suntail Village\Shaders\Suntail_Water.shader" />
      <None Include="Assets\ThirdParty\Map1\Polyart\PolyartStudio\Waterfall\Shaders\Dreamscape_Water_River.shader" />
+     <None Include="Assets\Knife\Diamond Shader\Shaders\Diamond.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\ThirdParty\Toon Adventure Island\_ReadFirst.txt" />
      <None Include="Assets\ThirdParty\Map1\Suntail Village\Shaders\Suntail_Surface.shader" />
@@ -213,6 +214,7 @@
      <None Include="Assets\ThirdParty\Map1\Suntail Village\Documentation\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\ThirdParty\Map1\Polyart\PolyartStudio\Waterfall\Shaders\PA_Grid.shader" />
+     <None Include="Assets\Knife\Diamond Shader\Readme.txt" />
      <None Include="Assets\ThirdParty\Toon Adventure Island\Shaders\TAI_CustomToonVegetation.shader" />
      <None Include="Assets\ThirdParty\VRMShaders\GLTF\IO\Resources\UniGLTF\StandardMapImporter.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />

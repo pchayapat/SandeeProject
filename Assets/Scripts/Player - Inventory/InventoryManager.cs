@@ -243,7 +243,7 @@ public class InventoryManager : MonoBehaviour
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
-            else if(child.gameObject.CompareTag("Clean") && BinType == 4){
+            else if(child.gameObject.CompareTag("Clean") && BinType == 3){
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
@@ -279,15 +279,15 @@ public class InventoryManager : MonoBehaviour
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
-            else if(child.gameObject.CompareTag("Cup") && BinType == 2){
+            else if(child.gameObject.CompareTag("Cup") && BinType == 3){
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
-            else if(child.gameObject.CompareTag("Juice") && BinType == 2){
+            else if(child.gameObject.CompareTag("Juice") && BinType == 3){
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
-            else if(child.gameObject.CompareTag("Milk") && BinType == 2){
+            else if(child.gameObject.CompareTag("Milk") && BinType == 3){
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
@@ -299,23 +299,23 @@ public class InventoryManager : MonoBehaviour
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
-            else if(child.gameObject.CompareTag("Bottle") && BinType == 2){
+            else if(child.gameObject.CompareTag("Bottle") && BinType == 3){
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
-            else if(child.gameObject.CompareTag("Can") && BinType == 2){
+            else if(child.gameObject.CompareTag("Can") && BinType == 3){
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
-            else if(child.gameObject.CompareTag("Can2") && BinType == 2){
+            else if(child.gameObject.CompareTag("Can2") && BinType == 3){
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
-            else if(child.gameObject.CompareTag("Can3") && BinType == 2){
+            else if(child.gameObject.CompareTag("Can3") && BinType == 3){
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }
-            else if(child.gameObject.CompareTag("Egg") && BinType == 3){
+            else if(child.gameObject.CompareTag("Egg") && BinType == 2){
                 Debug.Log("True");
                 ScoreManager.scoreCount += 1;
             }

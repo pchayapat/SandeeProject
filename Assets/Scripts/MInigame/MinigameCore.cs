@@ -27,6 +27,7 @@ public class MinigameCore : MonoBehaviour
     public GameObject Mission3Challenge;
     public GameObject WaterfallSpawner;
     public GameObject gameOver;
+
     [Header("Mission Trigger")]
     public GameObject Mission1EnterTrigger;
     public GameObject Mission2EnterTrigger;
