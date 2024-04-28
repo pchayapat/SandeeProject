@@ -14,13 +14,16 @@ public class MinigameCore : MonoBehaviour
     public GameObject score;
     public GameObject star;
     [Header("Mission Window Mission 1")]
+    public GameObject mission1Describe;
     public GameObject pass1;
     public GameObject warning1;
     [Header("Mission Window Mission 2")]
+    public GameObject mission2Describe;
     public GameObject pass2;
     public GameObject lock2;
     public GameObject warning2;
     [Header("Mission Window Mission 3")]
+    public GameObject mission3Describe;
     public GameObject pass3;
     public GameObject lock3;
     public GameObject warning3;
@@ -94,12 +97,18 @@ public class MinigameCore : MonoBehaviour
     {
         Debug.Log("Mission 1 start");
         Mission1EnterTrigger.gameObject.SetActive(false);
+        mission1Describe.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         mission1IsPlaying = true;
     }
     public void Mission2Start()
     {
         Debug.Log("Mission 2 start");
         Mission2EnterTrigger.gameObject.SetActive(false);
+        mission2Describe.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         mission2IsPlaying = true;
     }
     public void Mission3Start()
@@ -123,5 +132,12 @@ public class MinigameCore : MonoBehaviour
     public void DestroyWallMission2()
     {
         Mission2Wall.SetActive(false);
+    }
+    public void CloseDescribeUI()
+    {
+        mission1Describe.SetActive(false);
+        mission2Describe.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 }
