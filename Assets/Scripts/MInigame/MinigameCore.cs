@@ -30,6 +30,8 @@ public class MinigameCore : MonoBehaviour
     public GameObject Mission3Challenge;
     public GameObject WaterfallSpawner;
     public GameObject gameOver;
+    public WaterSpawn waterSpawn;
+    public CheckChild CheckChild;
 
     [Header("Mission Trigger")]
     public GameObject Mission1EnterTrigger;
@@ -119,6 +121,8 @@ public class MinigameCore : MonoBehaviour
         ScoreManager.scoreCount = 0;
         Missing.MissingCount = 5;
         TimeLevel.currentTime = 300;
+        waterSpawn.spawnInterval = 3;
+        CheckChild.DestroyChildrenInSlots();
         Mission3Challenge.gameObject.SetActive(true);
         WaterfallSpawner.gameObject.SetActive(true);
         Cursor.lockState = CursorLockMode.Locked;
@@ -133,10 +137,23 @@ public class MinigameCore : MonoBehaviour
     {
         Mission2Wall.SetActive(false);
     }
-    public void CloseDescribeUI()
+    public void CloseDescribe1_2UI()
     {
         mission1Describe.SetActive(false);
         mission2Describe.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+    public void BeforeMission3Start()
+    {
+        mission3Describe.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+    public void CloseDescribe3UI()
+    {
+        Mission3Start();
+        mission3Describe.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }

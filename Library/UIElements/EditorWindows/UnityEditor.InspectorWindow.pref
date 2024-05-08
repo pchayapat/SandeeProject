@@ -26,10 +26,28 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-prefabsToSpawn__UnityEngine.UIElements.ListView
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-dropClips__UnityEngine.UIElements.ListView
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-otherPanels__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-gameObjectsToCheck__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-groundLayers__unity-list-groundLayers.Array.data[0].groundTextures__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-groundLayers__unity-list-groundLayers.Array.data[0].footstepSounds__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-groundLayers__unity-list-groundLayers.Array.data[1].groundTextures__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-groundLayers__unity-list-groundLayers.Array.data[1].footstepSounds__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-groundLayers__unity-list-groundLayers.Array.data[2].groundTextures__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-groundLayers__unity-list-groundLayers.Array.data[2].footstepSounds__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-groundLayers__unity-list-groundLayers.Array.data[3].groundTextures__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-groundLayers__unity-list-groundLayers.Array.data[3].footstepSounds__UnityEngine.UIElements.ListView
   m_Values:
   - '{}'
   - '{}'
-  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":594.0,"anchoredItemIndex":0,"anchorOffset":0.0}}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":583.1997680664063,"anchoredItemIndex":0,"anchorOffset":0.0}}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":0.0,"anchoredItemIndex":0,"anchorOffset":0.0}}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":323.9996032714844},"firstVisibleIndex":14,"contentPadding":302.399658203125,"contentHeight":820.7997436523438,"anchoredItemIndex":14,"anchorOffset":21.599945068359376}}'
+  - '{}'
+  - '{}'
   - '{}'
   - '{}'
   - '{}'

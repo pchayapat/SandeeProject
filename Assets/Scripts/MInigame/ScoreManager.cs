@@ -11,6 +11,7 @@ public class ScoreManager : MonoBehaviour
     public int goalMission1 = 4;
     public int goalMission2 = 8;
     public MinigameCore minigameCore;
+    public WaterSpawn waterSpawn;
     void Start()
     {
         scoreCount = 0;
@@ -32,5 +33,18 @@ public class ScoreManager : MonoBehaviour
             minigameCore.mission2IsPlaying = false;
             minigameCore.DestroyWallMission2();
         }
+        if(scoreCount == 20)
+        {
+            waterSpawn.spawnInterval =2.5f;
+        }
+        if(scoreCount == 30)
+        {
+            waterSpawn.spawnInterval = 2;
+        }
+        if(scoreCount == 40)
+        {
+            waterSpawn.spawnInterval = 1.5f;
+        }
+
     }
 }

@@ -1,261 +1,136 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1713976293021272, "dur":18303, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713976293039580, "dur":89, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713976293039704, "dur":245, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713976293040619, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713976293040761, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713976293041226, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713976293041336, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713976293041529, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1713976293039976, "dur":3406, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713976293043384, "dur":789972, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713976293833357, "dur":163, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1713976293833604, "dur":1297, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1713976293040208, "dur":3188, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713976293043402, "dur":527, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713976293043929, "dur":3588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713976293048063, "dur":3817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1713976293052174, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1713976293053411, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1713976293054357, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject.exe" }}
-,{ "pid":12345, "tid":1, "ts":1713976293055453, "dur":6305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293063904, "dur":611, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713976293061847, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293067028, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293070969, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UniHumanoid.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293071935, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293072868, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293072867, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293072969, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293075332, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713976293074173, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293075478, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293077571, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293079388, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293081501, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293082630, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293085784, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713976293083548, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1713976293086169, "dur":74, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1713976293086259, "dur":123406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1713976293209691, "dur":623668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713976293040204, "dur":3186, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713976293043392, "dur":4123, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713976293048044, "dur":246, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":2, "ts":1713976293048294, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1713976293048372, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1713976293048676, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293048908, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293048990, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.VRM.IO.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293049079, "dur":502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRM10.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293049583, "dur":483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293050068, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VrmLib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293050160, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\UniHumanoid.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293050262, "dur":234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293050498, "dur":583, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293051084, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\UniGLTF.Utils.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293051141, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293051291, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.VRM10.MToon10.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293051353, "dur":363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\UniGLTF.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293051717, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.GLTF.IO.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293051875, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\FastSpringBone10.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293051949, "dur":343, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293052293, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.VRM10.Format.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293052351, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\MToon.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293052409, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293052479, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293052748, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.GLTF.UniUnlit.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1713976293052946, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playere98004ce-inputdata.json" }}
-,{ "pid":12345, "tid":2, "ts":1713976293048293, "dur":4802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1713976293053688, "dur":76, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1713976293054078, "dur":490740, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1713976293548493, "dur":8873, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1713976293548492, "dur":8877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1713976293557397, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1713976293558037, "dur":275325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713976293040268, "dur":3143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713976293043414, "dur":463, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713976293043915, "dur":3605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713976293048193, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1713976293053282, "dur":171, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713976293052242, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1713976293053877, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1713976293056262, "dur":7261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293064107, "dur":431, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713976293063583, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293064653, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293068139, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/VRMShaders.GLTF.UniUnlit.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293069475, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/FastSpringBone10.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293070225, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293071218, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293073045, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293074108, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293075071, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293075914, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293077111, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293078585, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293079426, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293080510, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293082280, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293083664, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293086190, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713976293085171, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1713976293086312, "dur":7143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1713976293093501, "dur":3089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1713976293101636, "dur":173, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1713976293096666, "dur":5153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1713976293101849, "dur":370289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1713976293472160, "dur":361192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713976293040328, "dur":3091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713976293043421, "dur":290, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713976293043712, "dur":273, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713976293043985, "dur":3531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713976293048644, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/app.info" }}
-,{ "pid":12345, "tid":4, "ts":1713976293050359, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1713976293052711, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1713976293054098, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293060010, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713976293056170, "dur":3930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293060240, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293064000, "dur":527, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713976293064532, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293067285, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293068972, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/MToon.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293069670, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UniGLTF.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293070428, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UniGLTF.Utils.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293071766, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/VRMShaders.VRM.IO.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293073011, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293074865, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293075917, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293078420, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293079362, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293080980, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713976293081068, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293082912, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293084611, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1713976293096339, "dur":134, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1713976293085752, "dur":10749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1713976293096568, "dur":4968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1713976293101672, "dur":406589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/level1.resS" }}
-,{ "pid":12345, "tid":4, "ts":1713976293508279, "dur":325078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713976293040240, "dur":3166, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713976293043408, "dur":550, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713976293043958, "dur":3563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713976293047523, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1713976293048837, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1713976293052614, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1713976293054240, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1713976293056642, "dur":4269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293060967, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293064122, "dur":439, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713976293061864, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293064777, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293067290, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293068433, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293069385, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293070444, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293072144, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293073343, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293074246, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293075211, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293075997, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293077313, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293079262, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293080188, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293080854, "dur":547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293081474, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293082280, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293083429, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293084738, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1713976293085845, "dur":77, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1713976293085958, "dur":13754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1713976293099758, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1713976293102514, "dur":100730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1713976293203272, "dur":630083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713976293040353, "dur":3072, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713976293043427, "dur":551, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713976293043978, "dur":3573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713976293049289, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1713976293050932, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1713976293053204, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1713976293054333, "dur":12019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293069404, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713976293066419, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293069545, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/VRMShaders.GLTF.IO.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293072457, "dur":112, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713976293071042, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/VrmLib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293072632, "dur":100, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1713976293072736, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293073714, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293075255, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293077113, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293078452, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293079356, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293080626, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293082305, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293083299, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293084284, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293085696, "dur":74927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1713976293161295, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1713976293163894, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1713976293165363, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1713976293166559, "dur":666794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713976293040405, "dur":3157, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713976293043563, "dur":563, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713976293044126, "dur":3393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713976293047523, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1713976293048992, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1713976293052227, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1713976293053853, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1713976293060026, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713976293056620, "dur":3473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293060160, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293062165, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293064319, "dur":248, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713976293063822, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293064689, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293068379, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713976293066119, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293068533, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293069120, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/VRMShaders.VRM10.Format.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293070204, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/VRMShaders.VRM10.MToon10.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293071408, "dur":775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/VRM10.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293072242, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293073578, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293074504, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293075806, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293077168, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293078609, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293079601, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293082784, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293084126, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293085814, "dur":92, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1713976293085045, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1713976293086069, "dur":15754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":7, "ts":1713976293101847, "dur":76486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/level1" }}
-,{ "pid":12345, "tid":7, "ts":1713976293178359, "dur":655002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713976293040378, "dur":3053, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713976293043434, "dur":561, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713976293043995, "dur":3523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713976293047522, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1713976293048706, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713976293049018, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1713976293054823, "dur":101, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713976293052453, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1713976293055057, "dur":319, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713976293055585, "dur":14728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1713976293070468, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293072830, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713976293071986, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293072999, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293074126, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293076011, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293077335, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293078617, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293082201, "dur":220, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1713976293080068, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293082495, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293084061, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1713976293086129, "dur":747189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 24-4/SandeeProject_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1713976293837040, "dur":934, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1714323553221111, "dur":17979, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714323553239095, "dur":147, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714323553239283, "dur":937, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714323553240429, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":0, "ts":1714323553240647, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":0, "ts":1714323553240925, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714323553241049, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714323553241279, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714323553241491, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714323553241598, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1714323553240318, "dur":3544, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714323553243864, "dur":699230, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714323553943095, "dur":169, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714323553943372, "dur":1984, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1714323553240108, "dur":3763, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714323553243875, "dur":4312, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714323553248645, "dur":254, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1714323553248902, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1714323553249231, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714323553249459, "dur":418, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRM10.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714323553248901, "dur":1148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1714323553261898, "dur":369857, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1714323553635959, "dur":9641, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1714323553635958, "dur":9644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1714323553645640, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1714323553646186, "dur":296888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714323553240133, "dur":3746, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714323553243887, "dur":884, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714323553244772, "dur":3423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714323553248200, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1714323553248455, "dur":85, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1714323553248567, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553248566, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553248635, "dur":88, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553248755, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553248753, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553249036, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553249035, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553249166, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VrmLib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553249164, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/VrmLib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553249253, "dur":430, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRM10.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553249252, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/VRM10.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553249724, "dur":132, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714323553249868, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1714323553249939, "dur":693157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714323553240159, "dur":3732, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714323553243895, "dur":534, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714323553244466, "dur":3728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714323553248215, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1714323553248200, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1714323553248508, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714323553248613, "dur":85, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714323553248759, "dur":525, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714323553248758, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714323553249300, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714323553249299, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714323553249608, "dur":277, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714323553249913, "dur":512644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1714323553762582, "dur":180513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714323553240193, "dur":3724, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714323553243920, "dur":512, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714323553244432, "dur":3764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714323553248200, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1714323553248266, "dur":88, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1714323553248374, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714323553248355, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1714323553248569, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714323553248644, "dur":237, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714323553248883, "dur":257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714323553248881, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714323553249157, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\UniHumanoid.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714323553249156, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UniHumanoid.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714323553249259, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.VRM.IO.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714323553249257, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/VRMShaders.VRM.IO.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714323553249560, "dur":83, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714323553249893, "dur":508431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1714323553758350, "dur":184722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714323553240212, "dur":3711, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714323553243926, "dur":304, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714323553244231, "dur":277, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714323553244508, "dur":3684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714323553248200, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1714323553248317, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714323553248522, "dur":163, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject.exe" }}
+,{ "pid":12345, "tid":5, "ts":1714323553248702, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714323553248871, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\MToon.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714323553248870, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/MToon.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714323553248953, "dur":218, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\UniGLTF.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714323553248952, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UniGLTF.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714323553249188, "dur":352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714323553249186, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714323553249603, "dur":104, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714323553249918, "dur":693175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714323553240235, "dur":3694, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714323553243932, "dur":666, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714323553244599, "dur":3734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714323553248333, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1714323553248511, "dur":364, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1714323553248877, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.VRM10.Format.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714323553248876, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/VRMShaders.VRM10.Format.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714323553248951, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.GLTF.IO.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714323553248949, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/VRMShaders.GLTF.IO.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714323553249099, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714323553249098, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714323553249291, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714323553249290, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714323553249875, "dur":693162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1714323553240257, "dur":3678, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714323553243938, "dur":547, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714323553244485, "dur":3705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714323553248261, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1714323553248496, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553248609, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553248752, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.GLTF.UniUnlit.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553248750, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/VRMShaders.GLTF.UniUnlit.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553248934, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\FastSpringBone10.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553248933, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/FastSpringBone10.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553249011, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\VRMShaders.VRM10.MToon10.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553249010, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/VRMShaders.VRM10.MToon10.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553249083, "dur":481, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\P_Project\\Unity\\SandeeProject\\SandeeProject\\SandeeProject\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553249082, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553249724, "dur":221, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714323553249945, "dur":693140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714323553240283, "dur":3792, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714323553244075, "dur":511, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714323553244587, "dur":3739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714323553248502, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714323553248589, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714323553248676, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.4f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714323553248675, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714323553248871, "dur":696, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714323553249668, "dur":222, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/P_Project/Sandee Build/Sandee Build 28-4/SandeeProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714323553249922, "dur":693151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714323553947548, "dur":456, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
